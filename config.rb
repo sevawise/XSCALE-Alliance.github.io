@@ -60,4 +60,4 @@ activate :deploy do |deploy|
   deploy.branch = 'master'
 end
 
-activate :directory_indexes
+set :relative_links, true
