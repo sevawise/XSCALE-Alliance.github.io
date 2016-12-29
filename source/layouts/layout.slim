@@ -6,8 +6,25 @@ doctype html
 html
   head
     title= current_page.data.title
-    meta charset="utf-8" /
-    meta content="width=device-width, initial-scale=1" name="viewport" /
+    link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"
+    link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png"
+    link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png"
+    link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png"
+    link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png"
+    link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png"
+    link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png"
+    link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png"
+    link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png"
+    link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png"
+    link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"
+    link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png"
+    link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"
+    link rel="manifest" href="/manifest.json"
+    meta name="msapplication-TileColor" content="#ffffff"
+    meta name="msapplication-TileImage" content="/ms-icon-144x144.png"
+    meta name="theme-color" content="#ffffff"
+    meta charset="utf-8"
+    meta content="width=device-width, initial-scale=1" name="viewport"
     /[if lte IE 8]
       == javascript_include_tag "ie/html5shiv.js"
     == stylesheet_link_tag "main", media: :all
@@ -24,33 +41,32 @@ html
         nav#nav
           ul
             li
-              a href="index.html#manifesto" Manifesto
+              a href="index.html#manifesto" title="XSCALE Manifesto for Agile Organization" Manifesto
             li
-              a href="index.html#blueprint" Blueprint
+              a href="index.html#benefits" title="Agile Organization? What's the Difference?" Benefits
             li
-              a href="http://xscale.wiki" Practices
+              a href="index.html#transformation" title="Self-Organizing T-Shaped Agile Transformation" Transformation
+              ul
+                li <a href="index.html#benefits">Agile Product Management</a>
+                li <a href="index.html#benefits">Agile Portfolio Management</a>
+                li <a href="index.html#benefits">Agile Quality Automation</a>
+                li <a href="index.html#benefits">Agile Cultural Transformation</a>
+            li
+              a href="http://xscale.wiki" title="XSCALE Practice Patterns" Blueprint
+            li
+              a href="alliance.html" title="People and Organizations supporting the XSCALE Alliance" Ecosystem
               ul
                 li
-                  a href="left-sidebar.html" Agile Product Management
+                  a href="partners.html" Strategic Partners
                 li
-                  a href="right-sidebar.html" Extreme Delivery
+                  a href="coaches.html" Coaches
                 li
-                  a href="no-sidebar.html" Self-Managed Value Streams
+                  a href="practitioners.html" Practitioners
                 li
-                  a href="no-sidebar.html" Self-Organized Transformation
+                  a href="signatories.html" Signatories
+
             li
-              a href="https://leanpub.com/agiletao" Mindset
-            li
-              a href="elements.html" Signatories
-              ul
-                li
-                  a href="#" Organizations
-                li
-                  a href="#" Coaches
-                li
-                  a href="#" Trainers
-            li
-              a.button.special href="mailto:inquiry@xscalealliance.org" Join Us
+              a.button.special href="index.html#signatory" Join
       == yield
       /! Footer
       footer#footer
@@ -74,10 +90,19 @@ html
             a.icon.alt.fa-envelope href="#" 
               span.label Email
         ul.copyright
-          li &copy; Untitled. All rights reserved.
+          li &copy; 2016 Peter Merel. All rights reserved.
           li
-            | Design:
+            | Template Design:
             a href="http://html5up.net"  HTML5 UP
+          li
+            | Site Generation:
+            a href="https://middlemanapp.com/" Middleman
+          li
+            | Hosted By:
+            a href="https://pages.github.com/" Github Pages
+          li
+            | Signatory Emails:
+            a href="http://mailchimp.com/" Mailchimp
         
     /! Scripts    
     == javascript_include_tag "vendor"

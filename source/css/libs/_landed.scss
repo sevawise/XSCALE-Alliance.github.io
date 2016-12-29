@@ -71,13 +71,14 @@
 
 	a {
 		@include vendor('transition', ('border-color #{_duration(transition)} ease-in-out', 'color #{_duration(transition)} ease-in-out'));
-		border-bottom: dotted 1px;
-		color: _palette(accent1);
+		border-bottom-color: transparent;
+		color: _palette(accent5);
 		text-decoration: none;
 
 		&:hover {
-			color: _palette(accent1) !important;
-			border-bottom-color: transparent;
+			color: _palette(accent5) !important;
+			border-bottom: dotted 1px;
+			border-bottom-color: _palette(accent5);
 		}
 	}
 
@@ -366,6 +367,7 @@
 
 	input[type="text"],
 	input[type="password"],
+	input[type="url"],
 	input[type="email"],
 	select,
 	textarea {
@@ -416,6 +418,7 @@
 
 	input[type="text"],
 	input[type="password"],
+	input[type="url"],
 	input[type="email"],
 	select {
 		height: _size(element-height);
@@ -804,15 +807,17 @@
 		}
 
 		td {
-			padding: 0.75em 0.75em;
+			font-size: 0.75em;
+			padding: 0.55em 0.55em;
+			text-align: left;
 		}
 
 		th {
 			color: _palette(fg-bold);
-			font-size: 0.9em;
+			font-size: 0.75em;
 			font-weight: _font(weight-bold);
-			padding: 0 0.75em 0.75em 0.75em;
-			text-align: left;
+			padding: 0 0.55em 0.55em 0.55em;
+			text-align: center;
 		}
 
 		thead {
@@ -1136,6 +1141,7 @@
 
 			input[type="text"],
 			input[type="password"],
+			input[type="url"],
 			input[type="email"],
 			select,
 			textarea {
