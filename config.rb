@@ -60,4 +60,8 @@ activate :deploy do |deploy|
   deploy.branch = 'master'
 end
 
+activate :blog do |blog|
+  blog.prefix = "blog"
+end
+
 set :relative_links, true
