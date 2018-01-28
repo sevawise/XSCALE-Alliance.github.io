@@ -1,0 +1,113 @@
+doctype html
+/!
+  | Landed by HTML5 UP
+  | html5up.net | @n33co
+  | Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+html
+  head
+    title= current_page.data.title
+    link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"
+    link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png"
+    link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png"
+    link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png"
+    link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png"
+    link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png"
+    link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png"
+    link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png"
+    link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png"
+    link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png"
+    link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"
+    link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png"
+    link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"
+    link rel="manifest" href="/manifest.json"
+    meta name="msapplication-TileColor" content="#ffffff"
+    meta name="msapplication-TileImage" content="/ms-icon-144x144.png"
+    meta name="theme-color" content="#ffffff"
+    meta charset="utf-8"
+    meta content="width=device-width, initial-scale=1" name="viewport"
+    <script type="text/javascript"> function OpenTicketWindow(url) { window.open(url, null,"height=800,width=1000,status=1,toolbar=no,menubar=no,location=1,scrollbars=1"); return false; } </script>
+    /[if lte IE 8]
+      == javascript_include_tag "ie/html5shiv.js"
+    == stylesheet_link_tag "main", media: :all
+    /[if lte IE 9]
+      == stylesheet_link_tag "ie9", media: :all
+    /[if lte IE 8]
+      == stylesheet_link_tag "ie8", media: :all
+  body.landing class="#{page_classes}"
+    #page-wrapper
+      /! Header
+      header#header
+        h1#logo
+          a href="index.html" XSCALE Alliance
+        nav#nav
+          ul
+            li
+              a href="index.html#manifesto" title="XSCALE Manifesto for Agile Organization" Manifesto
+            li
+              a href="index.html#benefits" title="Agile Organization? What's the Difference?" Benefits
+            li
+              a href="index.html#transformation" title="Self-Organizing T-Shaped Agile Transformation" Transformation
+              ul
+                li <a href="https://www.linkedin.com/pulse/exponential-product-management-xscale-language-peter-merel">Exponential Product Management</a>
+                li <a href="https://www.linkedin.com/pulse/exponential-agile-performance-xscale-practice-pattern-peter-merel">Exponential Agile Performance</a>
+                li <a href="https://www.linkedin.com/pulse/exponential-business-agility-xscale-practice-pattern-language-merel">Exponential Business Agility</a>
+                li <a href="https://www.linkedin.com/pulse/design-delivery-devops-hand-glove-peter-merel">Exponential DevOps</a>
+            li
+              a href="http://xscale.wiki" title="XSCALE Practice Patterns" Blueprint
+            li
+              a href="alliance.html" title="People and Organizations supporting the XSCALE Alliance" Ecosystem
+              ul
+                li
+                  a href="partners.html" Strategic Partners
+                li
+                  a href="https://www.linkedin.com/pulse/xscale-alliance-seeking-worlds-best-agile-trainers-coaches-merel" Coaches
+                li
+                  a href="https://www.linkedin.com/pulse/xscale-alliance-seeking-worlds-best-agile-trainers-coaches-merel" Practitioners
+                li
+                  a href="signatories.html" Signatories
+            li
+              a href="training.html" title="Training in the XSCALE Pattern Languages" Training
+            li
+              a.button.special href="index.html#signatory" Join
+      == yield
+      /! Footer
+      footer#footer
+        ul.icons
+          li
+            a.icon.alt.fa-twitter href="#" 
+              span.label Twitter
+          li
+            a.icon.alt.fa-facebook href="#" 
+              span.label Facebook
+          li
+            a.icon.alt.fa-linkedin href="#" 
+              span.label LinkedIn
+          li
+            a.icon.alt.fa-instagram href="#" 
+              span.label Instagram
+          li
+            a.icon.alt.fa-github href="#" 
+              span.label GitHub
+          li
+            a.icon.alt.fa-envelope href="#" 
+              span.label Email
+        ul.copyright
+          li &copy; 2016 Peter Merel. All rights reserved.
+          li
+            | Template Design:
+            a href="http://html5up.net"  HTML5 UP
+          li
+            | Site Generation:
+            a href="https://middlemanapp.com/" Middleman
+          li
+            | Hosted By:
+            a href="https://pages.github.com/" Github Pages
+          li
+            | Signatory Emails:
+            a href="http://mailchimp.com/" Mailchimp
+        
+    /! Scripts    
+    == javascript_include_tag "vendor"
+    /[if lte IE 8]
+      == javascript_include_tag "ie/respond"
+    == javascript_include_tag "main"
