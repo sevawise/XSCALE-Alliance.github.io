@@ -17,6 +17,7 @@ gem 'middleman-livereload'
 gem 'middleman-deploy', '~> 2.0.0-alpha'
 
 
+gem 'builder'
 gem 'middleman-jquery'
 gem 'font-awesome-sass', '~> 4.5.0'
 

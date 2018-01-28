@@ -60,8 +60,10 @@ activate :deploy do |deploy|
   deploy.branch = 'master'
 end
 
+page "/feed.xml", layout: false
+page "/news/feed.xml", layout: false
 activate :blog do |blog|
-  blog.prefix = "blog"
+  blog.prefix = "news"
 end
 
 set :relative_links, true
