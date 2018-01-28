@@ -22,6 +22,7 @@ gem 'middleman-jquery'
 gem 'font-awesome-sass', '~> 4.5.0'
 
 gem 'slim'
+gem 'nokogiri'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-mapbox.js', '~> 2.1.9', require: false
