@@ -1,0 +1,41 @@
+---
+
+title: XSCALE partnering with ABC
+date: 2018-02-13 00:59 UTC
+tags: ABC XSCALE Alliance Partnership MOU Interop Interoperation Business Agility
+
+---
+
+XSCALE Alliance has agreed to a __Memorandum of Understanding__ with <a href="https://www.agilebusiness.org/">Agile Business Consortium</a>:
+<p align="center"> <img src="/img/x-abc-400.png"/> </p>
+> This memorandum of understanding between XSCALE Alliance (“XA”) and the Agile Business Consortium (“ABC”) expresses an alignment and convergence of will between the two. It represents a treaty for the mutual benefit of the members of both communities. READMORE 
+>
+> 1. ABC is an organization promoting the growth of communities working to advance the state of the art in Business Agility. It now recognises XSCALE Alliance as another such community.
+>
+> 2. XSCALE Alliance is a principled ecosystem of independent agile service providers who develop, share, coach and train agile practice-pattern languages including Exponential Business Agility (“XBA”) which covers de-scaling, throughput accounting, and self-propagating transformation. It works to generate self-directing portfolios of self-managing streams of self-organizing teams.
+>
+> 3. ABC and XA have agreed that ABC and XSCALE practice patterns are interoperable, and the two organizations will work together to promote their interoperation. This work will include cross-promotion, discounts for members on training and events, and cross-linkage between each others’ knowledge bases.
+>
+> 4. In particular, ABC will extend free institutional membership to XA. XA will extend a free partnership to ABC. These arrangements entail:
+> (4.1) 30% discount on XA Practitioner training for all individual ABC members.
+> (4.2) 30% discount on XA Coach training for all qualified individual ABC members.
+> (4.3) 30% discount for ABC members on tickets to XA workshops and conferences.
+> (4.4) Individual ABC membership to the XA stewards
+> (4.5) 30% discount on ABC membership to all XA Coaches and Practitioners
+> 
+> 5. The senior members of both organizations will work to align their respective collateral to provide a consistent conceptual framework for business agility:
+> (5.1) XA will work to integrate with ABC’s business agility taxonomy as it becomes available.
+> (5.2) ABC will link to or integrate XSCALE content into its knowledge base under a suitable open content license”
+>
+> 13 Feb 2018 by <a href="https://www.linkedin.com/in/geofellingham/">Geof Ellingham</a> and <a href="https://www.linkedin.com/in/petermerel/">Peter Merel</a> for XSCALE Alliance and Agile Business Consortium.
+
+# Why is this MOU important to XSCALE Alliance?
+
+Where the DSDM practices and <a href="https://www.agilebusiness.org/communities/framework-for-business-agility/">Framework for Business Agility</a> respect the structures of traditional organizations, XSCALE principles and practices generate <a href="https://www.youtube.com/playlist?list=PLcF9BigzPGr3Fsema6jErOT8xwz0HR7NU">self-directing portfolios of self-managing streams of self-organizing teams</a>. In many cases these two approaches are complementary.
+
+So XSCALE Alliance and The Agile Business Consortium, formerly the <a href="https://www.agilebusiness.org/resources/dsdm-handbooks/the-dsdm-agile-project-framework-2014-onwards">DSDM Consortium</a>, are also complementary. As XA and ABC are both signatories to the <a href="http://agnosticagile.org/">Agnostic Agile Oath</a> an initiative of XSCALE Alliance Steward <a href="https://www.linkedin.com/in/adrianlander/">Adrian Lander</a>, this MOU supports practitioners combining XSCALE and ABC practices.
+
+XSCALE Alliance applauds the Agile Business Consortium as a global champion in promoting business agility. Represented by Arie Van Bennekum, ABC helped author the original <a href="http://agilemanifesto.org/">Agile Manifesto</a> and organizes the world's longest running <a href="https://www.agileconference.org/">Agile Business Conference</a>. 
+
+XA and ABC also maintain MOUs of interoperation with the <a href="http://xscalealliance.org/news/2018/01/27/bai.html">Business Agile Institute</a>. While some people in the Agile Industrial Complex enjoy scrapping over frameworks, our ecosystem focuses on business throughput first, tailoring the most effective combination of practice patterns to achieve it. 
+
