@@ -25,7 +25,13 @@ html
     meta name="theme-color" content="#ffffff"
     meta charset="utf-8"
     meta content="width=device-width, initial-scale=1" name="viewport"
-    <script type="text/javascript"> function OpenTicketWindow(url) { window.open(url, null,"height=800,width=1000,status=1,toolbar=no,menubar=no,location=1,scrollbars=1"); return false; } </script>
+    |
+      <script type="text/javascript"> 
+        function OpenTicketWindow(url) { 
+          window.open(url, null,"height=800,width=1000,status=1,toolbar=no,menubar=no,location=1,scrollbars=1"); 
+          return false; 
+        } 
+      </script>
     /[if lte IE 8]
       == javascript_include_tag "ie/html5shiv.js"
     == stylesheet_link_tag "main", media: :all
@@ -33,44 +39,36 @@ html
       == stylesheet_link_tag "ie9", media: :all
     /[if lte IE 8]
       == stylesheet_link_tag "ie8", media: :all
-  body.landing class="#{page_classes}"
+  body.landing class="#{page_classes}" onLoad="clientSideInclude('includeone', 'http://xscale.wiki');"
     #page-wrapper
       /! Header
       header#header
         h1#logo
-          a href="index.html" XSCALE Alliance
+          a href="/index.html" XSCALE Alliance
         nav#nav
           ul
             li
-              a href="/#manifesto" title="XSCALE Manifesto for Agile Organization" Manifesto
+              a.button.special href="/news" News
             li
-              a href="/news" News
+              a href="/#manifesto" title="XSCALE Manifesto for Agile Organization" Principles
             li
-              a href="/#transformation" title="Self-Organizing T-Shaped Agile Transformation" Transformation
+              a href="/blueprint.html" title="XSCALE Practice Patterns" Blueprints
+            li
+              a href="/training.html" title="Public Training" Courses
               ul
-                li <a href="https://www.linkedin.com/pulse/exponential-product-management-xscale-language-peter-merel">Exponential Product Management</a>
-                li <a href="https://www.linkedin.com/pulse/exponential-agile-performance-xscale-practice-pattern-peter-merel">Exponential Agile Performance</a>
-                li <a href="https://www.linkedin.com/pulse/exponential-business-agility-xscale-practice-pattern-language-merel">Exponential Business Agility</a>
-                li <a href="https://www.linkedin.com/pulse/design-delivery-devops-hand-glove-peter-merel">Exponential DevOps</a>
+                li <a href="https://www.linkedin.com/pulse/exponential-business-agility-xscale-practice-pattern-language-merel" target="_blank"><b>Business Agility</b></a>
+                li <a href="https://www.linkedin.com/pulse/exponential-product-management-xscale-language-peter-merel" target="_blank"><b>Product Management</b></a>
+                li <a href="https://www.linkedin.com/pulse/xdevops-xscale-pattern-language-peter-merel/" target="_blank"><b>DevOps</b></a>
             li
-              a href="http://xscale.wiki" title="XSCALE Practice Patterns" Blueprint
+              a href="/alliance.html"  Coaches
             li
-              a href="alliance.html" title="People and Organizations supporting the XSCALE Alliance" Ecosystem
-              ul
-                li
-                  a href="partners.html" Strategic Partners
-                li
-                  a href="https://www.linkedin.com/pulse/xscale-alliance-seeking-worlds-best-agile-trainers-coaches-merel" Coaches
-                li
-                  a href="https://www.linkedin.com/pulse/xscale-alliance-seeking-worlds-best-agile-trainers-coaches-merel" Practitioners
-                li
-                  a href="signatories.html" Signatories
+              a href="/partners.html" Partners
             li
-              a href="/#benefits" title="Agile Organization? What's the Difference?" Benefits
+              a href="https://www.linkedin.com/pulse/honorable-agile-ecosystem-peter-merel/" target="_blank" Ecosystem
             li
-              a href="training.html" title="Training in the XSCALE Pattern Languages" Training
+              a href="/signatories.html" Signatories
             li
-              a.button.special href="index.html#signatory" Join
+              a.button.special href="/index.html#signatory" Join
       == yield
       /! Footer
       footer#footer
