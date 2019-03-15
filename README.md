@@ -26,6 +26,17 @@ make server
 The site will be available at http://localhost:4567.
 See [Middleman development cycle] to get started.
 
+## Deploying
+
+To deploy the website:
+
+```
+make deploy
+```
+
+This will build the site, publish the build output to the master branch 
+and push the master branch to its tracking branch.
+
 ## Contributing
 
 Please share your contributions by sending pull requests against the `source` branch.
