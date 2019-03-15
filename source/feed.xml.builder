@@ -1,6 +1,6 @@
 xml.instruct!
 xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
-  site_url = "http://xscalealliance.org/"
+  site_url = "https://xscalealliance.org/"
   xml.title "XSCALE News"
   xml.subtitle "An Honorable Agile Ecosystem"
   xml.id URI.join(site_url, blog.options.prefix.to_s)
