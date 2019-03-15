@@ -37,5 +37,5 @@ So XSCALE Alliance and The Agile Business Consortium, formerly the <a href="http
 
 XSCALE Alliance applauds the Agile Business Consortium as a global champion in promoting business agility. Represented by Arie Van Bennekum, ABC helped author the original <a href="http://agilemanifesto.org/">Agile Manifesto</a> and organizes the world's longest running <a href="https://www.agileconference.org/">Agile Business Conference</a>. 
 
-XA and ABC also maintain MOUs of interoperation with the <a href="http://xscalealliance.org/news/2018/01/27/bai.html">Business Agile Institute</a>. While some people in the Agile Industrial Complex enjoy scrapping over frameworks, our ecosystem focuses on business throughput first, tailoring the most effective combination of practice patterns to achieve it. 
+XA and ABC also maintain MOUs of interoperation with the <a href="https://xscalealliance.org/news/2018/01/27/bai.html">Business Agile Institute</a>. While some people in the Agile Industrial Complex enjoy scrapping over frameworks, our ecosystem focuses on business throughput first, tailoring the most effective combination of practice patterns to achieve it. 
 
