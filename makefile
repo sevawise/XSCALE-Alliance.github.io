@@ -2,9 +2,6 @@
 bootstrap:
 	# assumptions:
 	# - a ruby environment
-	# on Mac, I had to instal nokogiri using:
-	# bundle config build.nokogiri -v '1.8.1' --use-system-libraries
-	# bundle install
 	echo "2.3.0" > .ruby-version
 	gem install bundler
 	bundle install
