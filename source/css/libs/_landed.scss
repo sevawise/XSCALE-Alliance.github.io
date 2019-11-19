@@ -914,6 +914,7 @@
 		}
 
 		&.special {
+			font-weight: bolder;
 			background-color: _palette(accent1);
 			box-shadow: none;
 			color: _palette(fg-bold) !important;

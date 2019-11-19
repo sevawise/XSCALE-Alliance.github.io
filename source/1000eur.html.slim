@@ -1,0 +1,21 @@
+---
+title: XSCALE Consulting (EUR)
+---
+/! Main
+#main.wrapper.style1
+  .container
+    header.major
+      h2 Payments
+    /! Content
+    section#content
+      .content
+        header
+          <!-- Load Stripe.js on your website. -->
+          <script src="https://js.stripe.com/v3"></script>
+
+          <!-- Create a button that your customers click to complete their purchase. -->
+          h3 XSCALE Consulting Payment
+          a.button id="checkout-button-sku_EugGL6SVAX7Odn" Pay $1,000.00 EUR
+          div id="error-message"
+
+          <script> var stripe = Stripe('pk_live_0vHGBpMIGCdZ9P2cirSNcKkU'); var checkoutButton = document.getElementById('checkout-button-sku_EugGL6SVAX7Odn'); checkoutButton.addEventListener('click', function () { stripe.redirectToCheckout({ items: [{sku: 'sku_EugGL6SVAX7Odn', quantity: 1}], successUrl: 'http://xscalealliance.org/paid.html', cancelUrl: 'http://xscalealliance.org/1000eur.html', }) .then(function (result) { if (result.error) { var displayError = document.getElementById('error-message'); displayError.textContent = result.error.message; } }); }); </script>
