@@ -9,8 +9,7 @@ setup: bootstrap
 update: bootstrap
 server:
 	bundle exec middleman server
-test: 
-	bundle exec middleman build
+test: cibuild
 cibuild:
 	bundle exec middleman build
 console: server

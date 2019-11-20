@@ -15,4 +15,4 @@ jobs:
     - name: Bootstrap
       run: make bootstrap
     - name: Build
-      run: make cibuild
+      run: make test
