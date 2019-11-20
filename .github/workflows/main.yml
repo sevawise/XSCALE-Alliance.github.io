@@ -1,6 +1,8 @@
 name: CI
 
 on: [pull_request, push]
+  branches-ignore:
+  - 'master'  # ignore pushes to master, because we publish our website there
 
 jobs:
   build:
