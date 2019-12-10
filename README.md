@@ -37,6 +37,8 @@ make deploy
 This will build the site, publish the build output to the master branch 
 and push the master branch to its tracking branch.
 
+Currently, Peter is the only person who publishes the website.
+
 ## Contributing
 
 Please share your contributions by sending pull requests against the `source` branch.
