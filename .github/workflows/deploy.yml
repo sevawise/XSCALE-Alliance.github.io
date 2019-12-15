@@ -1,0 +1,25 @@
+name: deploy
+
+on: 
+  push:
+    branches:
+    - 'source'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check Ruby Versions
+      run: ls $RUNNER_TOOL_CACHE/Ruby
+    - uses: actions/checkout@v1
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '2.4'
+    - name: Bootstrap
+      run: make bootstrap
+    - name: Build
+      run: make test
+    - name: Deploy
+      run: echo "Consider running `make deploy` if we get here ... "
