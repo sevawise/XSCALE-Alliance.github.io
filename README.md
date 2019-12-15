@@ -6,6 +6,8 @@ You can make changes on the `source` branch.
 
 [![Actions Status](https://github.com/XSCALE-Alliance/XSCALE-Alliance.github.io/workflows/verify_pull_request/badge.svg)](https://github.com/XSCALE-Alliance/XSCALE-Alliance.github.io/actions)
 
+[![Actions Status](https://github.com/XSCALE-Alliance/XSCALE-Alliance.github.io/workflows/deploy/badge.svg)](https://github.com/XSCALE-Alliance/XSCALE-Alliance.github.io/actions)
+
 
 ## Developing
 
