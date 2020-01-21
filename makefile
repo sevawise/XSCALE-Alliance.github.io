@@ -2,7 +2,7 @@
 bootstrap:
 	# assumptions:
 	# - a ruby environment
-	echo "2.3.0" > .ruby-version
+	echo "2.4" > .ruby-version
 	gem install bundler
 	bundle install
 setup: bootstrap
