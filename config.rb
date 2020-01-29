@@ -63,8 +63,17 @@ end
 page "/feed.xml", layout: false
 page "/news/feed.xml", layout: false
 activate :blog do |blog|
+  blog.name = "news"
   blog.prefix = "news"
   blog.layout = "article_layout"
+end
+
+activate :blog do |blog|
+  blog.name = "directory"
+  blog.prefix = "directory"
+  blog.sources = ":year-:title.html"
+  blog.permalink = "{title}.html"
+  blog.layout = "person"
 end
 
 set :relative_links, true
