@@ -1,0 +1,40 @@
+---
+blog: directory
+title: XSCALE Alliance People
+pageable: true
+per_page: 10
+---
+/! Main
+#main.wrapper.style1
+  .container
+    header.major
+      h2 People
+      p These are the people in our ecosystem. 
+    .row class="150%" 
+    div class=("12u$ 4u$(medium) important(medium)") 
+      /! Content
+      section#content
+        h3 Breaking News
+        p
+        - if paginate && num_pages > 1
+          p
+            | Page #{page_number} of #{num_pages}
+          - if prev_page
+            p= link_to 'Previous page', prev_page
+        ul
+        - page_articles.each_with_index do |article, i|
+          = article.date.strftime('%b %e')
+          | :&nbsp; <b>
+          a href=article.url 
+            = article.title
+          | </b>
+          /!
+            | use article.summary(250) if you have Nokogiri available to show just
+            | the first 250 characters
+          h6 &nbsp;
+          = article.summary
+          a href=article.url Read More ...
+          hr
+        - if paginate
+          - if next_page
+            p= link_to 'Next page', next_page
