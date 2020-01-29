@@ -15,3 +15,6 @@ cibuild:
 console: server
 deploy: test
 	bundle exec middleman deploy
+	git add . --all 
+	git ci -a 
+	git push --all
