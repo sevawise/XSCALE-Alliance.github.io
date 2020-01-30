@@ -15,8 +15,6 @@ contact: 'https://www.serraict.com/pages/contact'
 
 ---
 
-### About me
-
 I love to guide software teams on their journey to deliver valuable software and becoming a great team. I help organizations to create an environment where teams can shine.
 
 Besides an XSCALE Product Management Coach and PSM III certified Scrum Master, 
