@@ -7,15 +7,12 @@ title: Darsweil Rogers
 description: >
   Darsweil Rogers' profile page - XSCALE Business Agility Coach.
   XSCALE: A learning ecosystem for eXponential Simple Continuous Autonomous Learning Ecosystems
-image: https://media.licdn.com/dms/image/C5103AQHmTuEznm0fQg/profile-displayphoto-shrink_200_200/0?e=1578528000&v=beta&t=sYfvmEnY8-Ry5UZFKGiw2kXSi7YovGcdIlPE-ycS_P8
-linkedin: https://www.linkedin.com/in/dlrogers/
+image: ./pic/darsweil-rogers.png
 github:
 twitter: https://twitter.com/darsweilrogers
 contact: https://www.CFPInnovation.com
 ---
 
-<!-- Write your personal summary below. You can use Markdown formatting. -->
-Darsweil L Rogers 
 Darsweil is Partner & Co-Founder of CFP Innovation, a national advisory and research firm as well as Managing Member of RMC Strategies.  He is an executive, entrepreneur, coach and consultant with over 30 years of experience advising management teams from start-ups to Fortune 100 companies. Darsweil has an extensive background on Wall Street, principally with JP Morgan Chase & Co and its predecessor companies.  He was a corporate lender, including nine years financing private equity transactions for top tier firms across the United States.  While also with JPMC, Darsweil was CEO of JPMorgan Insurance Brokerage & Advisory Services, a de novo start-up in commercial insurance that achieve $400 Million in insurance premium before selling to a strategic partner.
 
 Darsweil has spent extensive time studying the nature of human interaction including the fields of neuro-linguistic programing and neuroscience and their application in the areas of improved personal and team communication as well as in developing leadership and management capacity. He is a certified analyst in behavioral styles and driving forces (motivations).  Darsweil and his colleagues at CFP are through leaders in the areas agile organizational change and the impact of the 4th Industrial Revolution on organizations.

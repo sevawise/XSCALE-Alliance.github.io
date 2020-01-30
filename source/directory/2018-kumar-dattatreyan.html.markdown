@@ -8,7 +8,7 @@ title: Kumar Dattatreyan
 description: >
   Kumar Dattatreyan's profile page - XSCALE Business Agility Coach and XSCALE Product Management Coach.
   XSCALE: A learning ecosystem for eXponential Simple Continuous Autonomous Learning Ecosystems
-image: https://media.licdn.com/dms/image/C4E03AQEcJ4-PT-22dQ/profile-displayphoto-shrink_200_200/0?e=1579737600&v=beta&t=m5qJJA8OMpH7zSx0WPvX5eU6vgFmf2wwUYitWrFjthQ
+image: ./pic/kumar-dattatreyan.png
 linkedin: https://www.linkedin.com/in/coachkdat/
 github:
 twitter:

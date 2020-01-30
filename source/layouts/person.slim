@@ -7,14 +7,27 @@
           /! Sidebar
           section#sidebar
             section
-              <img src="#{current_page.data.image}" style="height: 200px; width: 200px;">
+              <img src="#{current_page.data.image}">
+              ul.icons
+                li
+                  a.icon.alt.fa-twitter href="#{current_page.data.twitter}" 
+                    span.label Twitter
+                li
+                  a.icon.alt.fa-linkedin href="#{current_page.data.linkedin}" 
+                    span.label LinkedIn
+                li
+                  a.icon.alt.fa-github href="#{current_page.data.github}" 
+                    span.label GitHub
+                li
+                  a.icon.alt.fa-envelope href="#{current_page.data.contact}" 
+                    span.label Email
         div class=("8u$ 12u$(medium) important(medium)") 
           /! Content
           <article>
             h2 #{current_page.data.title}
             ul.actions
               - current_page.tags.each_with_index do |tag, i|
-                li <a href="#">#{tag}</a>
+                li class=("tag") #{tag}
             == yield
             ul.actions
               li <a href="#{current_page.data.linkedin}">LinkedIn</a>

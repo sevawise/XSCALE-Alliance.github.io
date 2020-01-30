@@ -7,7 +7,7 @@ title: Doc List
 description: >
   Doc List's profile page - XSCALE Business Agility Coach.
   XSCALE: A learning ecosystem for eXponential Simple Continuous Autonomous Learning Ecosystems
-image:
+image: ./pic/doc-list.png
 linkedin:
 github:
 twitter:
