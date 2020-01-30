@@ -7,12 +7,18 @@
           /! Sidebar
           section#sidebar
             section
-              ul.actions
-                li <a href="#{current_page.data.linkedin}">LinkedIn</a>
-                li <a href="/news">Github</a>
-                li <a href="/news">Email</a>
+              <img src="#{current_page.data.image}" style="height: 200px; width: 200px;">
         div class=("8u$ 12u$(medium) important(medium)") 
           /! Content
           <article>
+            h2 #{current_page.data.title}
+            ul.actions
+              - current_page.tags.each_with_index do |tag, i|
+                li <a href="#">#{tag}</a>
             == yield
+            ul.actions
+              li <a href="#{current_page.data.linkedin}">LinkedIn</a>
+              li <a href="#{current_page.data.github}">Github</a>
+              li <a href="#{current_page.data.twitter}">Twitter</a>
+              li <a href="#{current_page.data.contact}">Contact</a>
           </article>
