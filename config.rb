@@ -74,6 +74,7 @@ activate :blog do |blog|
   blog.sources = ":year-:title.html"
   blog.permalink = "{title}.html"
   blog.layout = "person"
+  blog.tag_template = "directory/tag.html"
 end
 
 set :relative_links, true
