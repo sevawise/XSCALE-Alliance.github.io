@@ -7,7 +7,7 @@ title: Marijn van der Zee
 description: >
   Marijn van der Zee's profile page - XSCALE Product Management Coach.
   XSCALE: A learning ecosystem for eXponential Simple Continuous Autonomous Learning Ecosystems
-image: 'https://www.gravatar.com/avatar/6b81da1d616ad76800dc9f8ac5a56619?s=200'
+image: ./pic/marijn-van-der-zee.png
 linkedin: 'https://www.linkedin.com/in/marijnvanderzee'
 github: 'https://github.com/serra'
 twitter: 'https://twitter.com/marijnvanderzee'

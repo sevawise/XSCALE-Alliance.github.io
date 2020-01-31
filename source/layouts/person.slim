@@ -26,8 +26,10 @@
           <article>
             h2 #{current_page.data.title}
             ul.actions
-              - current_page.tags.each_with_index do |tag, i|
-                li class=("tag") #{tag}
+              - current_page.tags.each do |tag|
+                li 
+                  a href="./tags/#{tag}.html" #{tag}
+                  
             == yield
             ul.actions
               li <a href="#{current_page.data.linkedin}">LinkedIn</a>

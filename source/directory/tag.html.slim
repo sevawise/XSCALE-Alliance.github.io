@@ -1,0 +1,49 @@
+---
+pageable: true
+per_page: 100
+blog: directory
+---
+/! Main
+#main.wrapper.style1
+  .container
+    header.major
+      h2 People
+      p Here's a selection of people in our ecosystem. 
+    .row class="150%" 
+      .4u class="12u$(medium)" 
+        /! Sidebar
+        section#sidebar
+          section
+            h3 Tags
+            p
+              ul
+              - blog.tags.each do |tag, articles|
+                  li style=("list-style-type: none;")
+                    a href=tag
+                      = tag
+      div class=("8u$ 12u$(medium) important(medium)") 
+        /! Content
+        section#content
+          h3 People tagged #{tagname}
+          - page_articles.each_with_index do |article, i|
+            div
+              a href=article.url 
+                = article.title
+              <img src="../#{article.data.image}" class="person-thumbnail">
+              = article.summary
+              a href=article.url Read More ...
+              ul.icons
+                li
+                  a.icon.alt.fa-twitter href="#{article.data.twitter}" 
+                    span.label Twitter
+                li
+                  a.icon.alt.fa-linkedin href="#{article.data.linkedin}" 
+                    span.label LinkedIn
+                li
+                  a.icon.alt.fa-github href="#{article.data.github}" 
+                    span.label GitHub
+                li
+                  a.icon.alt.fa-envelope href="#{article.data.contact}" 
+                    span.label Email
+              hr
+
