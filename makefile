@@ -20,3 +20,5 @@ deploy: test
 	git push --all
 build-verbose:
 	bundle _1.17.3_ exec middleman build --verbose
+bundle-update:
+	bundle _1.17.3_ update
