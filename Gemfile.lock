@@ -104,9 +104,9 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
-    middleman-sprockets (4.0.0.rc.1)
-      middleman-core (>= 4.0.0.rc.1)
-      sprockets (~> 3.0)
+    middleman-sprockets (4.0.0.rc.2)
+      middleman-core (~> 4.0)
+      sprockets (>= 3.0)
     mini_portile2 (2.4.0)
     minitest (5.14.0)
     multi_json (1.14.1)
@@ -175,7 +175,7 @@ DEPENDENCIES
   middleman-deploy (~> 2.0.0.pre.alpha)
   middleman-jquery
   middleman-livereload
-  middleman-sprockets (= 4.0.0.rc.1)
+  middleman-sprockets (= 4.0.0.rc.2)
   nokogiri
   rails-assets-Hover (~> 1.0.9)!
   rails-assets-formstone (~> 0.6.1)!
@@ -187,6 +187,7 @@ DEPENDENCIES
   rails-assets-respond!
   rails-assets-skel (~> 3.0.0.dev)!
   slim
+  sprockets (~> 3.7)
   tzinfo-data
   wdm (~> 0.1.0)
 
