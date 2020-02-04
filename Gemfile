@@ -12,7 +12,7 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'middleman', '~> 4.1.1'
 gem "middleman-blog"
 gem 'middleman-compass', '>= 4.0.1'
-gem 'middleman-sprockets', '~> 4.0.0.rc'
+gem 'middleman-sprockets', '4.0.0.rc.1'
 gem 'middleman-livereload'
 gem 'middleman-deploy', '~> 2.0.0-alpha'
 
