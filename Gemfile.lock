@@ -40,7 +40,7 @@ GEM
     fast_blank (1.0.0)
     fastimage (2.1.7)
     ffi (1.12.2)
-    font-awesome-sass (4.5.0)
+    font-awesome-sass (4.7.0)
       sass (>= 3.2)
     haml (5.1.2)
       temple (>= 0.8.0)
@@ -168,7 +168,7 @@ PLATFORMS
 
 DEPENDENCIES
   builder
-  font-awesome-sass (~> 4.5.0)
+  font-awesome-sass (~> 4.5)
   middleman
   middleman-blog
   middleman-compass (>= 4.0.1)

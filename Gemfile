@@ -19,7 +19,7 @@ gem 'middleman-deploy', '~> 2.0.0-alpha'
 
 gem 'builder'
 gem 'middleman-jquery'
-gem 'font-awesome-sass', '~> 4.5.0'
+gem 'font-awesome-sass', '~> 4.5'     # update to ~> 5.0 is breaking (e.g. social links) 
 
 gem 'slim'
 gem 'nokogiri'
