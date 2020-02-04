@@ -12,8 +12,8 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'middleman'
 gem 'middleman-blog'
 gem 'middleman-compass', '>= 4.0.1'
-gem 'sprockets', '~> 3.7'             # fixate sprockets to 3 series to show that it is middleman-sprockets that breaks
-gem 'middleman-sprockets', '4.0.0.rc.2'
+gem 'sprockets', '~> 3.7'             # upgrading to sprockets ~> 4.0.0 introduces new errors
+gem 'middleman-sprockets'
 gem 'middleman-livereload'
 gem 'middleman-deploy', '~> 2.0.0-alpha'
 
