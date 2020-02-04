@@ -16,7 +16,7 @@ gem 'sprockets', '~> 3.7'             # upgrading to sprockets ~> 4.0.0 introduc
 gem 'middleman-sprockets'
 gem 'middleman-livereload'
 gem 'middleman-deploy', '~> 2.0.0-alpha'
-
+gem 'middleman-metaman'
 
 gem 'builder'
 gem 'middleman-jquery'
