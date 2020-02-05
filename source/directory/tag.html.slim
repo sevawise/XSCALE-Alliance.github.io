@@ -19,8 +19,7 @@ blog: directory
               ul
               - blog.tags.each do |tag, articles|
                   li.people-list
-                    a href=tag
-                      = tag
+                    a href="./#{tag}.html" #{tag}
       div class=("8u$ 12u$(medium) important(medium)") 
         /! Content
         section#content
