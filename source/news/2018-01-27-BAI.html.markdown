@@ -3,6 +3,7 @@
 title: XSCALE partnering with BAI
 date: 2018-01-27 00:59 UTC
 tags: BAI XSCALE Alliance Partnership MOU Interop Interoperation Business Agility
+blog: news
 
 ---
 

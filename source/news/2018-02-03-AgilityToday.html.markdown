@@ -3,6 +3,7 @@
 title: XSCALE Alliance sponsors Agility Today Unconference
 date: 2018-02-03 00:59 UTC
 tags: AgilityToday XSCALE Alliance Sponsor Conference UnConference
+blog: news
 
 ---
 <p align="center"><a href="https://agilitytoday.com/about.html"><img src="/img/agility-today.png"/></a></p>

@@ -1,0 +1,39 @@
+= wrap_layout :layout do
+  /! Main
+  #main.wrapper.style1
+    .container
+      .row class="150%" 
+        .4u class="12u$(medium)" 
+          /! Sidebar
+          section#sidebar
+            section
+              <img src="#{current_page.data.image}">
+              ul.icons
+                li
+                  a.icon.alt.fa-twitter href="#{current_page.data.twitter}" 
+                    span.label Twitter
+                li
+                  a.icon.alt.fa-linkedin href="#{current_page.data.linkedin}" 
+                    span.label LinkedIn
+                li
+                  a.icon.alt.fa-github href="#{current_page.data.github}" 
+                    span.label GitHub
+                li
+                  a.icon.alt.fa-envelope href="#{current_page.data.contact}" 
+                    span.label Email
+        div class=("8u$ 12u$(medium) important(medium)") 
+          /! Content
+          <article>
+            h2 #{current_page.data.title}
+            ul.actions
+              - current_page.tags.each do |tag|
+                li 
+                  a href="./tags/#{tag}.html" #{tag}
+                  
+            == yield
+            ul.actions
+              li <a href="#{current_page.data.linkedin}">LinkedIn</a>
+              li <a href="#{current_page.data.github}">Github</a>
+              li <a href="#{current_page.data.twitter}">Twitter</a>
+              li <a href="#{current_page.data.contact}">Contact</a>
+          </article>
