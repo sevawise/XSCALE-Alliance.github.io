@@ -1,0 +1,16 @@
+ruby:
+  context ||= current_page
+
+ul.icons
+  li
+    a.icon.alt.fa-twitter href="#{context.data.twitter}" 
+      span.label Twitter
+  li
+    a.icon.alt.fa-linkedin href="#{context.data.linkedin}" 
+      span.label LinkedIn
+  li
+    a.icon.alt.fa-github href="#{context.data.github}" 
+      span.label GitHub
+  li
+    a.icon.alt.fa-envelope href="#{context.data.contact}" 
+      span.label Email
