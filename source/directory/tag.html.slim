@@ -31,18 +31,6 @@ blog: directory
               <img src="../#{article.data.image}" class="person-thumbnail">
               = article.summary
               a href=article.url Read More ...
-              ul.icons
-                li
-                  a.icon.alt.fa-twitter href="#{article.data.twitter}" 
-                    span.label Twitter
-                li
-                  a.icon.alt.fa-linkedin href="#{article.data.linkedin}" 
-                    span.label LinkedIn
-                li
-                  a.icon.alt.fa-github href="#{article.data.github}" 
-                    span.label GitHub
-                li
-                  a.icon.alt.fa-envelope href="#{article.data.contact}" 
-                    span.label Email
+              = partial('partials/social-links', :locals => { :context => article } )
               hr
 
