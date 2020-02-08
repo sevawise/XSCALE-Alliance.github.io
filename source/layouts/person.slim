@@ -8,22 +8,10 @@
           section#sidebar
             section
               <img src="#{current_page.data.image}">
-              ul.icons
-                li
-                  a.icon.alt.fa-twitter href="#{current_page.data.twitter}" 
-                    span.label Twitter
-                li
-                  a.icon.alt.fa-linkedin href="#{current_page.data.linkedin}" 
-                    span.label LinkedIn
-                li
-                  a.icon.alt.fa-github href="#{current_page.data.github}" 
-                    span.label GitHub
-                li
-                  a.icon.alt.fa-envelope href="#{current_page.data.contact}" 
-                    span.label Email
+              = partial('partials/social-links')
         div class=("8u$ 12u$(medium) important(medium)") 
           /! Content
-          <article>
+          article
             h2 #{current_page.data.title}
             ul.actions
               - current_page.tags.each do |tag|
@@ -31,9 +19,5 @@
                   a href="./tags/#{tag}.html" #{tag}
                   
             == yield
-            ul.actions
-              li <a href="#{current_page.data.linkedin}">LinkedIn</a>
-              li <a href="#{current_page.data.github}">Github</a>
-              li <a href="#{current_page.data.twitter}">Twitter</a>
-              li <a href="#{current_page.data.contact}">Contact</a>
-          </article>
+
+            = partial('partials/social-links')

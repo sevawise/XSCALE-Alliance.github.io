@@ -21,5 +21,17 @@ jobs:
       run: make bootstrap
     - name: Build
       run: make test
-    - name: Deploy
-      run: echo "Consider running `make deploy` if we get here ... "
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@3.2.1
+      with:
+        # Depending on the repository permissions you may need to provide 
+        #  the action with a GitHub personal access token instead of the 
+        #  provided GitHub token in order to deploy. This should be stored as a secret.
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        # This is the branch you wish to deploy to, for example gh-pages or docs.
+        BRANCH: 'master'
+        # The folder in your repository that you want to deploy. 
+        #  If your build script compiles into a directory named build you would put it here. 
+        #  Folder paths cannot have a leading / or ./. 
+        #  If you wish to deploy the root directory you can place a . here.
+        FOLDER: 'build'
