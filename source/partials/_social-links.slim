@@ -1,0 +1,20 @@
+ruby:
+  context ||= current_page
+
+ul.icons
+  - if context.data.twitter
+    li
+      a.icon.alt.fa-twitter href="#{context.data.twitter}" 
+        span.label Twitter
+  - if context.data.linkedin
+    li
+      a.icon.alt.fa-linkedin href="#{context.data.linkedin}" 
+        span.label LinkedIn
+  - if context.data.github
+    li
+      a.icon.alt.fa-github href="#{context.data.github}" 
+        span.label GitHub
+  - if context.data.contact
+    li
+      a.icon.alt.fa-envelope href="#{context.data.contact}" 
+        span.label Email
