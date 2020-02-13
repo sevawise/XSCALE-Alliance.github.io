@@ -26,11 +26,11 @@ html
     meta charset="utf-8"
     meta content="width=device-width, initial-scale=1" name="viewport"
     |
-      <script type="text/javascript"> 
-        function OpenTicketWindow(url) { 
-          window.open(url, null,"height=800,width=1000,status=1,toolbar=no,menubar=no,location=1,scrollbars=1"); 
-          return false; 
-        } 
+      <script type="text/javascript">
+        function OpenTicketWindow(url) {
+          window.open(url, null,"height=800,width=1000,status=1,toolbar=no,menubar=no,location=1,scrollbars=1");
+          return false;
+        }
       </script>
     /[if lte IE 8]
       == javascript_include_tag "ie/html5shiv.js"
@@ -48,65 +48,65 @@ html
         nav#nav
           ul
             li
-              a.button href="/xlots" title="Experience reports - coming soon!" Experiences
-            li 
+              a.button href="https://www.youtube.com/watch?v=ONYXWSsXpuI" target="_blank" title="Experience reports" Experiences
+            li
               a.button href="/xlots" title="Live Online Training Streams" Courses
-            li 
+            li
               a.button href="/#manifesto" title="What's XSCALE about?" Manifesto
-            li 
+            li
               a.button href="/podcasts.html" title="Blogs, Podcasts and Interviews" Media
-            li 
+            li
               a.button href="/loxdoc" title="Meetups, Conventions, Conferences" Events
-            li 
+            li
               a.button href="/news" title="What's new in the XSCALE Alliance?" News
-            li 
+            li
               a.button href="https://www.linkedin.com/groups/3953144/" target="_blank" title="XSCALE fans online" Group
-            li 
+            li
               a.button.special Ecosystem
-              ul 
-                li 
+              ul
+                li
                   a.button align="right" href="/alliance.html" Alliance
-                li 
+                li
                   a.button align="right" href="/directory" People
-                li 
+                li
                   a.button align="right" href="/#sponsors" Partners
-                li 
+                li
                   a.button href="/signatories.html" Signatories
       == yield
       /! Footer
       footer#footer
         ul.icons
           li
-            a.icon.alt.fa-twitter href="https://twitter.com/xscalealliance" 
+            a.icon.alt.fa-twitter href="https://twitter.com/xscalealliance"
               span.label Twitter
           li
-            a.icon.alt.fa-facebook href="https://www.facebook.com/XSCALEAlliance" 
+            a.icon.alt.fa-facebook href="https://www.facebook.com/XSCALEAlliance"
               span.label Facebook
           li
-            a.icon.alt.fa-linkedin href="https://www.linkedin.com/groups/3953144/" 
+            a.icon.alt.fa-linkedin href="https://www.linkedin.com/groups/3953144/"
               span.label LinkedIn
           li
-            a.icon.alt.fa-github href="https://github.com/XSCALE-Alliance" 
+            a.icon.alt.fa-github href="https://github.com/XSCALE-Alliance"
               span.label GitHub
           li
-            a.icon.alt.fa-envelope href="mailto:registrars@xscalealliance.org" 
+            a.icon.alt.fa-envelope href="mailto:registrars@xscalealliance.org"
               span.label Email
         ul.copyright
           li &copy; 2016 Peter Merel. All rights reserved.
           li
-            | Template Design: 
+            | Template Design:
             a href="http://html5up.net"  HTML5 UP
           li
-            | Site Generation: 
+            | Site Generation:
             a href="https://middlemanapp.com/" Middleman
           li
-            | Hosted By: 
+            | Hosted By:
             a href="https://pages.github.com/" Github Pages
           li
-            | Signatory Emails: 
+            | Signatory Emails:
             a href="http://mailchimp.com/" Mailchimp
-        
-    /! Scripts    
+
+    /! Scripts
     == javascript_include_tag "vendor"
     /[if lte IE 8]
       == javascript_include_tag "ie/respond"
