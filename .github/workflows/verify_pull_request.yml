@@ -22,8 +22,8 @@ jobs:
     - name: Cache Ruby Gems
       uses: actions/cache@v1
       with:
-        path: "~/.gem"
-        key: ${{ runner.os }}-gems-from-home-${{ hashFiles('**/Gemfile.lock') }}
+        path: "$RUNNER_TOOL_CACHE/Ruby/2.5.7/x64/"
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
         restore-keys: |
           ${{ runner.os }}-gems-
     - name: Bootstrap
