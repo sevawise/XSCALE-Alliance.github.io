@@ -13,8 +13,8 @@ jobs:
     steps:
     - name: Check Ruby Versions
       run: |
+        echo "$RUNNER_TOOL_CACHE"
         ls $RUNNER_TOOL_CACHE/Ruby
-        gem environment
     - uses: actions/checkout@v1
     - uses: actions/setup-ruby@v1
       with:
