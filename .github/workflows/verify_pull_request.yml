@@ -29,5 +29,6 @@ jobs:
     - name: Bootstrap
       run: |
         make bootstrap
+        which htmlproofer 
     - name: Build
       run: make test
