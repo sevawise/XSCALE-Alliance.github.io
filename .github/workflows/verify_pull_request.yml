@@ -29,9 +29,7 @@ jobs:
     - name: Bootstrap
       run: |
         make bootstrap
-        which htmlproofer
-        bundle config
-        ls /home/runner/.gem
-        ls ~/.gem/
+        ls -R ~/.gem/
+        ls -R "/opt/hostedtoolcache/Ruby/2.5.7/x64/"
     - name: Build
       run: make test
