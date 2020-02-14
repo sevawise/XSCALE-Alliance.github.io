@@ -13,6 +13,9 @@ require 'sass'
 
 require 'font-awesome-sass'
 
+# meta tags
+activate :metaman, host: 'https://xscalealliance.org'
+
 ###
 # Page options, layouts, aliases and proxies
 ###
