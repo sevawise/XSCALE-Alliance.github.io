@@ -28,7 +28,6 @@ jobs:
           ${{ runner.os }}-gems-
     - name: Bootstrap
       run: |
-        ls ~/.gem/ruby/2.5.0
         make bootstrap
     - name: Build
       run: make test
