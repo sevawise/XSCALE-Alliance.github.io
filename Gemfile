@@ -9,17 +9,18 @@ gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Middleman Gems
-gem 'middleman', '~> 4.1.1'
-gem "middleman-blog"
+gem 'middleman'
+gem 'middleman-blog'
 gem 'middleman-compass', '>= 4.0.1'
-gem 'middleman-sprockets', '~> 4.0.0.rc'
+gem 'sprockets', '~> 3.7'             # upgrading to sprockets ~> 4.0.0 introduces new errors
+gem 'middleman-sprockets'
 gem 'middleman-livereload'
 gem 'middleman-deploy', '~> 2.0.0-alpha'
 
 
 gem 'builder'
 gem 'middleman-jquery'
-gem 'font-awesome-sass', '~> 4.5.0'
+gem 'font-awesome-sass', '~> 4.5'     # update to ~> 5.0 is breaking (e.g. social links) 
 
 gem 'slim'
 gem 'nokogiri'

@@ -2,7 +2,7 @@
 bootstrap:
 	# assumptions:
 	# - a ruby environment
-	echo "2.4" > .ruby-version
+	echo "2.5" > .ruby-version
 	gem install bundler
 	bundle install
 setup: bootstrap
@@ -18,3 +18,5 @@ deploy: test
 	git add . --all 
 	git ci -a 
 	git push --all
+build-verbose:
+	bundle exec middleman build --verbose
