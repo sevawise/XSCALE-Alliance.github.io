@@ -26,6 +26,7 @@ jobs:
           ${{ runner.os }}-gems-
     - name: Bootstrap
       run: |
+        gem install bundler
         bundle config path vendor/bundle
         make bootstrap
     - name: Build
