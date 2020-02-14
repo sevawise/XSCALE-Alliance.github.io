@@ -22,15 +22,13 @@ jobs:
     - name: Cache Ruby Gems
       uses: actions/cache@v1
       with:
-        path: vendor/bundle
+        path: ~/.gem/ruby/2.5.0
         key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
         restore-keys: |
           ${{ runner.os }}-gems-
     - name: Bootstrap
       run: |
-        gem install bundler
-        ls -la vendor/bundle
-        bundle config path vendor/bundle
-        make cibuild
+        ls ~/.gem/ruby/2.5.0
+        make bootstrap
     - name: Build
       run: make test
