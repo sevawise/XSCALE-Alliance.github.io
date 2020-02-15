@@ -12,12 +12,22 @@ jobs:
 
     steps:
     - name: Check Ruby Versions
-      run: ls $RUNNER_TOOL_CACHE/Ruby
+      run: |
+        echo "$RUNNER_TOOL_CACHE"
+        ls $RUNNER_TOOL_CACHE/Ruby
     - uses: actions/checkout@v1
     - uses: actions/setup-ruby@v1
       with:
         ruby-version: '2.5'
+    - name: Cache Ruby Gems
+      uses: actions/cache@v1
+      with:
+        path: "/opt/hostedtoolcache/Ruby/2.5.7/x64/"
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
     - name: Bootstrap
-      run: make bootstrap
+      run: |
+        make bootstrap
     - name: Build
       run: make test
