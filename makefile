@@ -10,6 +10,8 @@ update: bootstrap
 server:
 	bundle exec middleman server
 test: cibuild
+	# this assumes htmlproofer is available
+	htmlproofer --empty-alt-ignore --disable-external --allow-hash-href ./build
 cibuild:
 	bundle exec middleman build
 console: server

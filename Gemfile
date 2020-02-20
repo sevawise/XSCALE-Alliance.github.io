@@ -16,7 +16,7 @@ gem 'sprockets', '~> 3.7'             # upgrading to sprockets ~> 4.0.0 introduc
 gem 'middleman-sprockets'
 gem 'middleman-livereload'
 gem 'middleman-deploy', '~> 2.0.0-alpha'
-
+gem 'middleman-metaman'
 
 gem 'builder'
 gem 'middleman-jquery'
@@ -24,6 +24,7 @@ gem 'font-awesome-sass', '~> 4.5'     # update to ~> 5.0 is breaking (e.g. socia
 
 gem 'slim'
 gem 'nokogiri'
+gem 'html-proofer'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-mapbox.js', '~> 2.1.9', require: false
