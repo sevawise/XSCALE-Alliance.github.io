@@ -33,7 +33,9 @@ See [Middleman development cycle] to get started.
 
 ## Deploying
 
-To deploy the website:
+All commits that are pushed to the `source` branch in the [XSCALE-Alliance/XSCALE-Alliance.github.io](https://github.com/XSCALE-Alliance/XSCALE-Alliance.github.io/) are checked and deployed using github pages.
+
+To deploy the website manually:
 
 ```
 make deploy
@@ -41,8 +43,6 @@ make deploy
 
 This will build the site, publish the build output to the master branch 
 and push the master branch to its tracking branch.
-
-Currently, Peter is the only person who publishes the website.
 
 ## Contributing
 
