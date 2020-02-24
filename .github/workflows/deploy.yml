@@ -17,8 +17,17 @@ jobs:
     - uses: actions/setup-ruby@v1
       with:
         ruby-version: '2.5'
+    - name: Cache Ruby Gems
+      uses: actions/cache@v1
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems3-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems3-
     - name: Bootstrap
-      run: make bootstrap
+      run: |
+        bundle config path vendor/bundle
+        make bootstrap
     - name: Build
       run: make test
     - name: Deploy to GitHub Pages
