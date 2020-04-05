@@ -1,7 +1,7 @@
 ---
 blog: directory
 date: 2018-01-01 00:01 UTC
-tags: xba-coach, circle-eu-uk
+tags: xba-coach # , circle-eu-uk
 title: Andrew Sanyal
 description: >
   Andrew Sanyal's profile page - XSCALE Business Agility Coach.

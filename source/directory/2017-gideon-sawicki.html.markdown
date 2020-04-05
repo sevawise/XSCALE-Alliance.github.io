@@ -1,7 +1,7 @@
 ---
 blog: directory
 date: 2017-01-01 00:01 UTC
-tags: steward, xba-coach, xpm-coach, circle-australia-asia
+tags: steward, xba-coach, xpm-coach #, circle-australia-asia
 title: Gideon Sawicki
 description: >
   Gideon Sawicki's profile page - XSCALE Business Agility Coach and XSCALE Product Management Coach.

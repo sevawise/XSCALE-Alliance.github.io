@@ -1,7 +1,7 @@
 ---
 blog: directory
 date: 2018-01-01 00:01 UTC
-tags: steward, xba-coach, xpm-coach, circle-americas
+tags: steward, xba-coach, xpm-coach # , circle-americas
 title: Kumar Dattatreyan
 description: >
   Kumar Dattatreyan's profile page - XSCALE Business Agility Coach and XSCALE Product Management Coach.

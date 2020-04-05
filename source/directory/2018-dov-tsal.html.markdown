@@ -1,7 +1,7 @@
 ---
 blog: directory
 date: 2018-01-01 00:01 UTC
-tags: steward, xba-coach, circle-eu-uk
+tags: steward, xba-coach # , circle-eu-uk
 title: Dov TSAL
 description: >
   Dov TSAL's profile page - XSCALE Business Agility Coach.

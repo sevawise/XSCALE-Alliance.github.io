@@ -1,7 +1,7 @@
 ---
 blog: directory
 date: 2017-01-01 00:01 UTC
-tags: xba-coach, xpm-coach, xba-practicioner, xpm-practicioner, circle-australia-asia
+tags: xba-coach, xpm-coach # , xba-practicioner, xpm-practicioner, circle-australia-asia
 title: Frank Packenham
 description: >
   Frank Packenham's profile page - XSCALE Business Agility Coach and XSCALE Product Management Coach.
