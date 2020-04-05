@@ -3,6 +3,7 @@ blog: directory
 date: 2018-01-01 00:01 UTC
 tags:
   - xpm-coach
+  - circle-eu-uk
 title: Marijn van der Zee
 description: >
   Marijn van der Zee's profile page - XSCALE Product Management Coach.
