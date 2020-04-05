@@ -10,7 +10,7 @@ image: ./pic/gideon-sawicki.png
 linkedin: https://www.linkedin.com/in/gideonsawicki
 github:
 twitter:
-contact: gideon.sawicki@gmail.com
+contact: "mailto:gideon.sawicki@gmail.com"
 ---
 
 <!-- Write your personal summary below. You can use Markdown formatting. -->

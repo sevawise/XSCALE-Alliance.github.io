@@ -10,7 +10,7 @@ image: ./pic/andrew-sanyal.png
 linkedin: https://www.linkedin.com/in/andrewsanyal/
 github:
 twitter: 
-contact: ajsanyal@gmail.com
+contact: "mailto:ajsanyal@gmail.com"
 ---
 
 <!-- Write your personal summary below. You can use Markdown formatting. -->

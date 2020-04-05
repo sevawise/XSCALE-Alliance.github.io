@@ -10,7 +10,7 @@ image: ./pic/kumar-dattatreyan.png
 linkedin: https://www.linkedin.com/in/coachkdat/
 github:
 twitter: https://twitter.com/KumarDattatreya
-contact: kumar@agilemeridian.com
+contact: "mailto:kumar@agilemeridian.com"
 ---
 
 <!-- Write your personal summary below. You can use Markdown formatting. -->

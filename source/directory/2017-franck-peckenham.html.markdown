@@ -10,7 +10,7 @@ image: ./pic/franck-packenham.png
 linkedin: https://www.linkedin.com/in/frank-packenham-xba-xpm-csm-pmp-73b8785/
 github:
 twitter:
-contact: etc181@outlook.com
+contact: "mailto:etc181@outlook.com"
 ---
 
 <!-- Write your personal summary below. You can use Markdown formatting. -->
