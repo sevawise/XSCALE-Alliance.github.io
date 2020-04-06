@@ -25,13 +25,16 @@ class CoachPage
   def initialize(template, row)
     @row = row
     @name = row["Full name for display on your profile page"]
+    @year = row["Year of joining XSCALE"]
     @template = template
+    @output_filename = "./output/#{@year}-#{@name.downcase.gsub(" ", "-")}.html.markdown"
   end
 
   def build
     b = binding
     renderer = ERB.new(@template)
-    puts output = renderer.result(b)
+    output = renderer.result(b)
+    File.write(@output_filename, output)
   end
 end
 
