@@ -24,6 +24,7 @@ class CoachPage
 
   def initialize(template, row)
     @row = row
+    @name = row["Full name for display on your profile page"]
     @template = template
   end
 

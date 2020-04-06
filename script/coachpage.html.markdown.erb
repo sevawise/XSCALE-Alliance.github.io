@@ -2,11 +2,11 @@
 blog: directory
 date: <%= @row["Year of joining XSCALE"] %>-01-01 00:01 UTC
 tags: <%= @row["Please select all tags that apply to you"] %>
-title: <%= @row["Full name for display on your profile page"] %>
+title: <%= @name %>
 description: >
-  <%= @row["Full name for display on your profile page"] %>'s profile page - XSCALE Coach.
+  <%= @name %>'s profile page - XSCALE Coach.
   XSCALE: A learning ecosystem for eXponential Simple Continuous Autonomous Learning Ecosystems
-image: ./pic/<%= @row["Full name for display on your profile page"] %>.png
+image: ./pic/<%= @name.downcase.gsub(" ", "-") %>.png
 linkedin: <%= @row["LinkedIn profile url"] %>
 github: <%= @row["Github profile url"] %>
 twitter: <%= @row["Twitter profile url"] %>
