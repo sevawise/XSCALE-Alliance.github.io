@@ -10,7 +10,7 @@ image: ./pic/minton-brooks.png
 linkedin: https://www.linkedin.com/in/mintonbrooks/
 github: 
 twitter: https://twitter.com/mintonbrooks
-contact: minton@mintonltd.com
+contact: mailto:minton@mintonltd.com
 ---
 
 My 1:1 marketing startup DirecTouch began sprinting in 1994. I didn't know anything about software development, and so I focused on finding a good way to collaborate with engineers. I picked Ivar Jacobson's iterative & incremental Objectory which became the Unified Process, than RUP, then IBM RUP. I had to close the startup, but I learned a lot about product development and solution delivery. 
