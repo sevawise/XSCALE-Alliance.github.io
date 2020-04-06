@@ -10,7 +10,7 @@ image: ./pic/andrew-m-webster.png
 linkedin: https://www.linkedin.com/in/andrewmwebster/
 github: 
 twitter: https://twitter.com/wsdm_at_wk
-contact: andrew@wisdomat.work
+contact: mailto:andrew@wisdomat.work
 ---
 
 I work on aligning the way work works with the way people work, ideally so it no longer occurs as "work", and for everyone's benefit!
