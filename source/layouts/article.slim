@@ -6,13 +6,15 @@
         .4u class="12u$(medium)" 
           /! Sidebar
           section#sidebar
-            section
-              footer
-                h2
-                  ul.actions
-                    li <a href="/articles">All articles</a>
+            h4 By #{current_page.data.author}
+            <img src="#{current_page.data.author_image}">
+            footer
+              ul.actions
+                li <a href="/articles">Articles</a>
+                li <a href="/podcasts">Media</a>                  
+                li <a href="/xlots">Courses</a>
         div class=("8u$ 12u$(medium) important(medium)") 
           /! Content
-          <article>
+          h3 #{current_page.data.title}
+          article
             == yield
-          </article>
