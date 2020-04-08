@@ -1,0 +1,19 @@
+= wrap_layout :layout do
+  /! Main
+  #main.wrapper.style1
+    .container
+      .row class="150%" 
+        .4u class="12u$(medium)" 
+          /! Sidebar
+          section#sidebar
+            h4 By #{current_page.data.author}
+            p
+              <img src="#{current_page.data.author_image}">
+            ul.actions
+              li <a href="#{current_page.data.author_profile}">About #{current_page.data.author}</a>
+              li <a href="/articles">Articles</a>
+        div class=("8u$ 12u$(medium) important(medium)") 
+          /! Content
+          h3 #{current_page.data.title}
+          article
+            == yield

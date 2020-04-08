@@ -1,0 +1,21 @@
+---
+blog: articles
+title: XSCALE Alliance Articles
+pageable: true
+per_page: 10
+---
+/! Main
+#main.wrapper.style1
+  .container
+    header.major
+      h2 Articles
+      p Here is a selection of our content.
+    div class=("row uniform")
+      - blog.tags.sort.each do |tag, articles|
+        section class=("4u 12u$(medium) 12u$(xsmall)") style=("text-align: center;")
+          h3 #{tag}
+          ul
+          - articles.each_with_index do |article, i|
+            li style=("list-style-type: none;")
+              a href=article.url 
+                = article.title
