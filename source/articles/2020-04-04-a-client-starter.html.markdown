@@ -1,15 +1,17 @@
 ---
-blog: articles
+
+title: A Client Starter
 date: 2020-04-04 00:01 UTC
 tags: client-starter
+blog: articles
 author: Paula Stewart
 author_image: /directory/pic/paula-stewart.png
 author_profile: https://www.linkedin.com/in/paula-sevawise/
 reviewer: Marijn van der Zee
-title: A Client Starter
 description: >
   This is an example client starter.
   XSCALE: A learning ecosystem for eXponential Simple Continuous Autonomous Learning Ecosystems
+
 ---
 
 This a suggestion for proposed work at a client for a three-week engagement with a coaching group focused on transmitting self-management and business agility principles, and building trust with coaching and product group stakeholders. Critical activities include workshops and lectures for coaching and methodology staff with topics to be covered including but not limited to:
