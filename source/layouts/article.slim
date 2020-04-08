@@ -1,0 +1,18 @@
+= wrap_layout :layout do
+  /! Main
+  #main.wrapper.style1
+    .container
+      .row class="150%" 
+        .4u class="12u$(medium)" 
+          /! Sidebar
+          section#sidebar
+            section
+              footer
+                h2
+                  ul.actions
+                    li <a href="/articles">All articles</a>
+        div class=("8u$ 12u$(medium) important(medium)") 
+          /! Content
+          <article>
+            == yield
+          </article>

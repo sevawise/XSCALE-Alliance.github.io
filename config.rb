@@ -82,4 +82,10 @@ activate :blog do |blog|
   blog.tag_template = "directory/tag.html"
 end
 
+activate :blog do |blog|
+  blog.name = "articles"
+  blog.prefix = "articles"
+  blog.layout = "article"
+end
+
 set :relative_links, true
