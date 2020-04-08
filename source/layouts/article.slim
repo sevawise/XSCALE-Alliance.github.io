@@ -7,12 +7,11 @@
           /! Sidebar
           section#sidebar
             h4 By #{current_page.data.author}
-            <img src="#{current_page.data.author_image}">
-            footer
-              ul.actions
-                li <a href="/articles">Articles</a>
-                li <a href="/podcasts">Media</a>                  
-                li <a href="/xlots">Courses</a>
+            p
+              <img src="#{current_page.data.author_image}">
+            ul.actions
+              li <a href="#{current_page.data.author_profile}">About #{current_page.data.author}</a>
+              li <a href="/articles">Articles</a>
         div class=("8u$ 12u$(medium) important(medium)") 
           /! Content
           h3 #{current_page.data.title}
