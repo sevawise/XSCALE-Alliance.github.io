@@ -1,98 +1,22 @@
 ---
+
+title: 3D Kanban
+date: 2017-09-04 00:01 UTC
+tags: xba, 3d-kanban
+blog: articles
+author: Peter Merel
+author_image: /directory/pic/peter-merel.png
+author_profile: https://www.linkedin.com/in/petermerel/
+reviewer: Marijn van der Zee
 description: |
     Despite the fuss that\'s been made of its Japanese name and Lean
     origins, a Kanban is just a card wall where you pull cards toward done
     from the right rather than pushing them into progress on the left.
     Pulling toward done minimises work in progress, which is good for ROI
     and related measures.
-fb:app_id: 161320853908703
-google-site-verification: 't9M-lk-kbgtImg1\_i\_dtbW8DnGO0ZEzvRHHv7pcJoZA'
-lang: en
-locale: 'en\_US'
-pageKey: 'd\_flagship2\_pulse\_read'
-robots: noarchive
-title: 3D Kanban
-twitter:card: 'summary\_large\_image'
-twitter:description: |
-    Despite the fuss that\'s been made of its Japanese name and Lean
-    origins, a Kanban is just a card wall where you pull cards toward done
-    from the right rather than pushing them into progress on the left.
-    Pulling toward done minimises work in progress, which is good for ROI
-    and related measures.
-twitter:site: '\@LinkedInEditors'
-twitter:title: 3D Kanban
+
 ---
 
-::: {#artdeco-global-alert-container .global-alert-banner aria-live="assertive" role="alert"}
-::: {.artdeco-global-alert .artdeco-global-alert--NOTICE severity="NOTICE" alert-id="urn:li:alert:3" aria-hidden="true" type="COOKIE_USAGE"}
-::: {.section .artdeco-global-alert__body}
-This LinkedIn website uses cookies and similar tools to improve the
-functionality and performance of this site and LinkedIn services, to
-understand how you use LinkedIn services, and to provide you with
-tailored ads and other recommendations. Third parties may also place
-cookies through this website for advertising, tracking, and analytics
-purposes. These cookies enable us and third parties to track your
-Internet navigation behavior on our website and potentially off of our
-website. By continuing your use of this website, you consent to this use
-of cookies and similar technologies. See our [Cookie
-Policy](https://www.linkedin.com/legal/cookie-policy) for more
-information.
-
-[dismiss]{.a11y-text}
-:::
-:::
-:::
-
-::: {.navbar__wrapper}
-[](https://www.linkedin.com/?trk=d_flagship2_pulse_read_logo){.nav-header__logo-link}
-
--   [Sign
-    in](https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fpulse%2F3d-kanban-peter-merel&trk=d_flagship2_pulse_read_signin){.nav-header__link}
--   [Join
-    now](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fpulse%2F3d-kanban-peter-merel&trk=d_flagship2_pulse_read_join){.nav-header__link-button}
-:::
-
-::: {.article-cover-image__caption}
-An XSCALE 3D Kanban.
-:::
-
-3D Kanban {#d-kanban .article-title}
-=========
-
-Published on September 4, 2017September 4, 2017 • 417 Likes • 29
-Comments
-
-::: {.ellipsis-menu}
-::: {.collapsible-dropdown .article-head__ellipsis-menu}
--   [Report this
-    post](https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fpulse%2F3d-kanban-peter-merel&trk=article-head_ellipsis-menu-sign-in-redirect){.ellipsis-menu__item-button}
-:::
-:::
-
-::: {.author-info}
-::: {.mini-card .mini-profile .mini-card--flat .mini-profile--flat data-impression-id="author_mini-profile_mini-card"}
-::: {.section .mini-card__content .mini-profile__content .mini-card__content--flat .mini-profile__content--flat}
-### [Peter Merel](https://au.linkedin.com/in/petermerel?trk=author_mini-profile_title){.mini-card__title-link .mini-profile__title-link .mini-card__title-link--flat .mini-profile__title-link--flat}[Follow](https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fpulse%2F3d-kanban-peter-merel&trk=author-info__follow-button){.author-info__follow-button} {#peter-merelfollow .mini-card__title .mini-profile__title .mini-card__title--flat .mini-profile__title--flat}
-
-#### CEO XSCALE Alliance {#ceo-xscale-alliance .mini-card__subtitle .mini-profile__subtitle .mini-card__subtitle--flat .mini-profile__subtitle--flat}
-:::
-:::
-
--   Like
-    [417]{.social-ctas__number}
--   Comment
-    [29]{.social-ctas__number}
--   ::: {.social-share .social-ctas__button data-tracking-control-name="social_share" data-share-message="3D Kanban"}
-    [Share]{.social-share__button-text-circular}
-    -   [LinkedIn]{.social-share__item-text}
-    -   [Facebook]{.social-share__item-text}
-    -   [Twitter]{.social-share__item-text}
-    :::
-
-    [3]{.social-ctas__number}
-:::
-
-::: {.section .article-body data-redirect-url="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fpulse%2F3d-kanban-peter-merel"}
 Despite the fuss that\'s been made of its Japanese name and Lean
 origins, a Kanban is just a card wall where you pull cards toward done
 from the right rather than pushing them into progress on the left.
@@ -216,138 +140,3 @@ Agility](https://www.linkedin.com/pulse/exponential-business-agility-xscale-prac
 [Corey
 Ladas](http://leansoftwareengineering.com/2009/07/01/a-swimlane-for-ad-hoc-workflow/?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3Bxx9LPymJQjSg2lVcXBskjA%3D%3D).
 [Business Bingo](https://www.linkedin.com/pulse/3d-kanban-peter-merel)
-:::
-
-::: {.author-info .author-info__container}
-::: {.mini-card .mini-profile .mini-card--flat .mini-profile--flat data-impression-id="author_mini-profile_mini-card"}
-::: {.section .mini-card__content .mini-profile__content .mini-card__content--flat .mini-profile__content--flat}
-### [Peter Merel](https://au.linkedin.com/in/petermerel?trk=author_mini-profile_title){.mini-card__title-link .mini-profile__title-link .mini-card__title-link--flat .mini-profile__title-link--flat} {#peter-merel .mini-card__title .mini-profile__title .mini-card__title--flat .mini-profile__title--flat}
-
-#### CEO XSCALE Alliance {#ceo-xscale-alliance-1 .mini-card__subtitle .mini-profile__subtitle .mini-card__subtitle--flat .mini-profile__subtitle--flat}
-:::
-:::
-
-[Follow](https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fpulse%2F3d-kanban-peter-merel&trk=author-info__follow-button-bottom){.author-info__follow-button-bottom}
-:::
-
-::: {.article-comment__container data-article-urn="urn:li:article:8334729055166904739" data-article-permalink="3d-kanban-peter-merel"}
-::: {.article-comment__header data-total-comment="29"}
-29 comments
-:::
-
-::: {.article-comment__guest-leave-comment}
-![article-comment\_\_guest-image](https://static-exp1.licdn.com/sc/h/djzv59yelk5urv2ujlazfyvrk){.article-comment__guest-image}
-
-::: {.article-comment__guest-signin-view}
-[Sign
-in](https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fpulse%2F3d-kanban-peter-merel&trk=article-reader_leave-comment){.article-comment__guest-leave-comment--signin}
-to leave your comment
-:::
-:::
-
-::: {.article-comments-insert-slot}
-:::
-
-::: {.article-comment__show-more-section}
-::: {.article-comment__show-more-link}
-Show more comments.
-:::
-:::
-:::
-
-::: {.main .related-articles-container}
-
-------------------------------------------------------------------------
-
-[]{.related-articles__title-container}
-
-### More from Peter Merel {#more-from-peter-merel .related-articles__title}
-
-[67
-articles](https://www.linkedin.com/today/author/petermerel?trk=author-info__article-link)
-
-::: {.related-articles}
-::: {.article-card}
-::: {.article-card__image--wrapper}
-:::
-
-::: {.article-card__content}
-### [Distributed Descaling DevOps --- the LOXDOC...](https://www.linkedin.com/pulse/distributed-descaling-devops-loxdoc-convention-peter-merel?trk=related_artice_Distributed%20Descaling%20DevOps%20%E2%80%94%20the%20LOXDOC%20Convention_article-card_title){.article-card__title--link} {#distributed-descaling-devops-the-loxdoc .article-card__title}
-
-[February 27, 2020]{.article-card__meta-info-item}
-:::
-:::
-
-::: {.article-card}
-::: {.article-card__image--wrapper}
-:::
-
-::: {.article-card__content}
-### [Camelot Update \#3: Any-Sized Teams](https://www.linkedin.com/pulse/camelot-update-3-odd-sized-circles-peter-merel?trk=related_artice_Camelot%20Update%20%233%3A%20Any-Sized%20Teams_article-card_title){.article-card__title--link} {#camelot-update-3-any-sized-teams .article-card__title}
-
-[February 3, 2020]{.article-card__meta-info-item}
-:::
-:::
-
-::: {.article-card}
-::: {.article-card__image--wrapper}
-:::
-
-::: {.article-card__content}
-### [Camelot Update \#2: Exception Management](https://www.linkedin.com/pulse/camelot-update-2-self-managing-exceptions-peter-merel?trk=related_artice_Camelot%20Update%20%232%3A%20%20Exception%20%20Management_article-card_title){.article-card__title--link} {#camelot-update-2-exception-management .article-card__title}
-
-[February 3, 2020]{.article-card__meta-info-item}
-:::
-:::
-:::
-:::
-
--   [LinkedIn]{.sr-only}[© 2020]{.li-footer__copy-text}
--   [About](https://press.linkedin.com/about-linkedin?trk=article_reader_footer_footer-about){.li-footer__item-link}
--   [User
-    Agreement](https://www.linkedin.com/legal/user-agreement?trk=article_reader_footer_footer-user-agreement){.li-footer__item-link}
--   [Privacy
-    Policy](https://www.linkedin.com/legal/privacy-policy?trk=article_reader_footer_footer-privacy-policy){.li-footer__item-link}
--   [Cookie
-    Policy](https://www.linkedin.com/legal/cookie-policy?trk=article_reader_footer_footer-cookie-policy){.li-footer__item-link}
--   [Copyright
-    Policy](https://www.linkedin.com/legal/copyright-policy?trk=article_reader_footer_footer-copyright-policy){.li-footer__item-link}
--   [Brand
-    Policy](https://brand.linkedin.com/policies?trk=article_reader_footer_footer-brand-policy){.li-footer__item-link}
--   [Guest
-    Controls](https://www.linkedin.com/psettings/guest-controls?trk=article_reader_footer_footer-guest-controls){.li-footer__item-link}
--   [Community
-    Guidelines](https://www.linkedin.com/help/linkedin/answer/34593?lang=en&trk=article_reader_footer_footer-community-guide){.li-footer__item-link}
--   ::: {.dropdown .language-selector .dropdown--footer .language-selector--footer}
-    ::: {.see-more-less-list .language-selector}
-    -   Bahasa Indonesia
-    -   Bahasa Malaysia
-    -   Čeština
-    -   Dansk
-    -   Deutsch
-    -   **English**
-    -   Español
-    -   繁體中文
-    -   Français
-    -   한국어
-    -   Italiano
-    -   简体中文
-    -   Nederlands
-    -   日本語
-    -   Norsk
-    -   Polski
-    -   Português
-    -   Română
-    -   Русский
-    -   Svenska
-    -   Tagalog
-    -   ภาษาไทย
-    -   Türkçe
-    -   العربية
-
-    [Language]{.language-selector__label-text}
-    [Language]{.language-selector__label-text}
-    :::
-    :::
-
-``{#article style="display: none;"}
