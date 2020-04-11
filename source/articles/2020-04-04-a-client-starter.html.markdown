@@ -36,7 +36,7 @@ This a suggestion for proposed work at a client for a three-week engagement with
 
   [Self-Propagating Transformation]: https://medium.com/@xscalealliance/self-propagating-transformation-e7668c28dbd4
   [Leadership As A Service]: https://medium.com/@xscalealliance/leadership-as-a-service-6bf4ebb1199b
-  [3D Kanban]: https://medium.com/@xscalealliance/3d-kanban-cb7a936bb0d0
+  [3D Kanban]: /articles/2017/09/04/3d-kanban.html
   [Open Space]: https://openspaceworld.org/wp2/
   [Mu Hin Shu]: https://medium.com/@xscalealliance/the-samurai-and-the-tea-master-7ae63d7af640
   [Round Councils]: https://medium.com/@xscalealliance/round-councils-a9f8eaaaf363
