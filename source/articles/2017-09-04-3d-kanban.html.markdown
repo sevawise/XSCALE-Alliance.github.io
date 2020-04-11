@@ -1,26 +1,20 @@
 ---
+
+title: 3D Kanban
+date: 2017-09-04 00:01 UTC
+tags: xba, 3d-kanban
+blog: articles
+author: Peter Merel
+author_image: /directory/pic/peter-merel.png
+author_profile: https://www.linkedin.com/in/petermerel/
+reviewer: Marijn van der Zee
 description: |
     Despite the fuss that\'s been made of its Japanese name and Lean
     origins, a Kanban is just a card wall where you pull cards toward done
     from the right rather than pushing them into progress on the left.
     Pulling toward done minimises work in progress, which is good for ROI
     and related measures.
-fb:app_id: 161320853908703
-google-site-verification: 't9M-lk-kbgtImg1\_i\_dtbW8DnGO0ZEzvRHHv7pcJoZA'
-lang: en
-locale: 'en\_US'
-pageKey: 'd\_flagship2\_pulse\_read'
-robots: noarchive
-title: 3D Kanban
-twitter:card: 'summary\_large\_image'
-twitter:description: |
-    Despite the fuss that\'s been made of its Japanese name and Lean
-    origins, a Kanban is just a card wall where you pull cards toward done
-    from the right rather than pushing them into progress on the left.
-    Pulling toward done minimises work in progress, which is good for ROI
-    and related measures.
-twitter:site: '\@LinkedInEditors'
-twitter:title: 3D Kanban
+
 ---
 
 ::: {#artdeco-global-alert-container .global-alert-banner aria-live="assertive" role="alert"}
