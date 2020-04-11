@@ -8,6 +8,7 @@ author: Peter Merel
 author_image: /directory/pic/peter-merel.png
 author_profile: https://www.linkedin.com/in/petermerel/
 reviewer: Marijn van der Zee
+canonical_url: https://www.linkedin.com/pulse/3d-kanban-peter-merel/
 description: |
     Despite the fuss that\'s been made of its Japanese name and Lean
     origins, a Kanban is just a card wall where you pull cards toward done

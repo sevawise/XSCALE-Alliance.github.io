@@ -8,8 +8,8 @@
 # 3. include the markdown file in the website
 # 4. inspect the content in the website, tidy up if necessary
 # 5. verify that only the images we want remain and no additional content is linked
-# 6. update the frontmatter with a canonical reference
-# 7. check the source url in our current website
+# 6. update the frontmatter with a canonical_url if needed
+# 7. check the source url in our current website; replace according to your judgement
 
 source_url="https://www.linkedin.com/pulse/3d-kanban-peter-merel/"
 file_name="2017-09-04-3d-kanban"
