@@ -9,7 +9,7 @@
 # 4. inspect the content in the website, tidy up if necessary
 # 5. verify that only the images we want remain and no additional content is linked
 # 6. update the frontmatter with a canonical reference
-
+# 7. check the source url in our current website
 
 source_url="https://www.linkedin.com/pulse/3d-kanban-peter-merel/"
 file_name="2017-09-04-3d-kanban"
@@ -23,11 +23,13 @@ wget -k -O $local_copy_url $source_url
 sed -i '' 's/src="\/\/:0"//g' "$local_copy_url"
 sed -i '' 's/data-li-src/src/g' "$local_copy_url"
 
-
 # Example pandoc command
 pandoc -s -r html "$local_copy_url" -o "./output/$file_name.html.markdown"
 
+echo 'The source url is referenced in the following files, consider replacing it:'
+grep -rnw '../source/articles' -e $source_url
 
+# -----------
 # If you want to include the images as local content, then do the following:
 #
 # 1. run a wget command on the new article _in the xscale website_ (published or run locally),
