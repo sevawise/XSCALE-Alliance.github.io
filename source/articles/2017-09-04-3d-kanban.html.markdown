@@ -63,10 +63,8 @@ you do it just in time to track a card\'s flow. Because less cards on
 the board means less complexity and more
 [YAGNI](http://wiki.c2.com/?YouArentGonnaNeedIt).
 
-::: {.slate-resizable-image-embed .slate-image-embed__resize-full-width}
 ![No alt text provided for this
 image](https://media-exp1.licdn.com/dms/image/C4E12AQEn1r2-Ef_IZQ/article-inline_image-shrink_1000_1488/0?e=1591833600&v=beta&t=FgEgUoDUShCLNAS2kyJtiZq_tC-7CZwOtq4J0Rgiw7E)
-:::
 
 XSCALE\'s definitions of these things are minimalist:
 
@@ -89,10 +87,8 @@ breadth-first. Think of the colours here as just a way to see how the
 boxes on the right are always pulled directly out of the boxes on the
 left. Let\'s follow the wall left to right and see how that works.
 
-::: {.slate-resizable-image-embed .slate-image-embed__resize-middle}
 ![No alt text provided for this
 image](https://media-exp1.licdn.com/dms/image/C4E12AQEgdD1GZL73gQ/article-inline_image-shrink_1000_1488/0?e=1591833600&v=beta&t=4oT4Y20Q5Z3ycMNdThdHv0E39g3EXrI1QhJuZkOaxbA)
-:::
 
 Walking The Wall
 ----------------
