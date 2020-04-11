@@ -1,20 +1,26 @@
 ---
-
-title: 3D Kanban
-date: 2017-09-04 00:01 UTC
-tags: xba, 3d-kanban
-blog: articles
-author: Peter Merel
-author_image: /directory/pic/peter-merel.png
-author_profile: https://www.linkedin.com/in/petermerel/
-reviewer: Marijn van der Zee
 description: |
     Despite the fuss that\'s been made of its Japanese name and Lean
     origins, a Kanban is just a card wall where you pull cards toward done
     from the right rather than pushing them into progress on the left.
     Pulling toward done minimises work in progress, which is good for ROI
     and related measures.
-
+fb:app_id: 161320853908703
+google-site-verification: 't9M-lk-kbgtImg1\_i\_dtbW8DnGO0ZEzvRHHv7pcJoZA'
+lang: en
+locale: 'en\_US'
+pageKey: 'd\_flagship2\_pulse\_read'
+robots: noarchive
+title: 3D Kanban
+twitter:card: 'summary\_large\_image'
+twitter:description: |
+    Despite the fuss that\'s been made of its Japanese name and Lean
+    origins, a Kanban is just a card wall where you pull cards toward done
+    from the right rather than pushing them into progress on the left.
+    Pulling toward done minimises work in progress, which is good for ROI
+    and related measures.
+twitter:site: '\@LinkedInEditors'
+twitter:title: 3D Kanban
 ---
 
 ::: {#artdeco-global-alert-container .global-alert-banner aria-live="assertive" role="alert"}
@@ -38,7 +44,7 @@ information.
 :::
 
 ::: {.navbar__wrapper}
-[](/?trk=d_flagship2_pulse_read_logo){.nav-header__logo-link}
+[](https://www.linkedin.com/?trk=d_flagship2_pulse_read_logo){.nav-header__logo-link}
 
 -   [Sign
     in](https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fpulse%2F3d-kanban-peter-merel&trk=d_flagship2_pulse_read_signin){.nav-header__link}
@@ -134,7 +140,8 @@ the board means less complexity and more
 [YAGNI](http://wiki.c2.com/?YouArentGonnaNeedIt).
 
 ::: {.slate-resizable-image-embed .slate-image-embed__resize-full-width}
-![No alt text provided for this image](//:0)
+![No alt text provided for this
+image](https://media-exp1.licdn.com/dms/image/C4E12AQEn1r2-Ef_IZQ/article-inline_image-shrink_1000_1488/0?e=1591833600&v=beta&t=FgEgUoDUShCLNAS2kyJtiZq_tC-7CZwOtq4J0Rgiw7E)
 :::
 
 XSCALE\'s definitions of these things are minimalist:
@@ -159,7 +166,8 @@ boxes on the right are always pulled directly out of the boxes on the
 left. Let\'s follow the wall left to right and see how that works.
 
 ::: {.slate-resizable-image-embed .slate-image-embed__resize-middle}
-![No alt text provided for this image](//:0)
+![No alt text provided for this
+image](https://media-exp1.licdn.com/dms/image/C4E12AQEgdD1GZL73gQ/article-inline_image-shrink_1000_1488/0?e=1591833600&v=beta&t=4oT4Y20Q5Z3ycMNdThdHv0E39g3EXrI1QhJuZkOaxbA)
 :::
 
 Walking The Wall
@@ -264,7 +272,7 @@ articles](https://www.linkedin.com/today/author/petermerel?trk=author-info__arti
 :::
 
 ::: {.article-card__content}
-### [Distributed Descaling DevOps --- the LOXDOC...](/pulse/distributed-descaling-devops-loxdoc-convention-peter-merel?trk=related_artice_Distributed%20Descaling%20DevOps%20%E2%80%94%20the%20LOXDOC%20Convention_article-card_title){.article-card__title--link} {#distributed-descaling-devops-the-loxdoc .article-card__title}
+### [Distributed Descaling DevOps --- the LOXDOC...](https://www.linkedin.com/pulse/distributed-descaling-devops-loxdoc-convention-peter-merel?trk=related_artice_Distributed%20Descaling%20DevOps%20%E2%80%94%20the%20LOXDOC%20Convention_article-card_title){.article-card__title--link} {#distributed-descaling-devops-the-loxdoc .article-card__title}
 
 [February 27, 2020]{.article-card__meta-info-item}
 :::
@@ -275,7 +283,7 @@ articles](https://www.linkedin.com/today/author/petermerel?trk=author-info__arti
 :::
 
 ::: {.article-card__content}
-### [Camelot Update \#3: Any-Sized Teams](/pulse/camelot-update-3-odd-sized-circles-peter-merel?trk=related_artice_Camelot%20Update%20%233%3A%20Any-Sized%20Teams_article-card_title){.article-card__title--link} {#camelot-update-3-any-sized-teams .article-card__title}
+### [Camelot Update \#3: Any-Sized Teams](https://www.linkedin.com/pulse/camelot-update-3-odd-sized-circles-peter-merel?trk=related_artice_Camelot%20Update%20%233%3A%20Any-Sized%20Teams_article-card_title){.article-card__title--link} {#camelot-update-3-any-sized-teams .article-card__title}
 
 [February 3, 2020]{.article-card__meta-info-item}
 :::
@@ -286,7 +294,7 @@ articles](https://www.linkedin.com/today/author/petermerel?trk=author-info__arti
 :::
 
 ::: {.article-card__content}
-### [Camelot Update \#2: Exception Management](/pulse/camelot-update-2-self-managing-exceptions-peter-merel?trk=related_artice_Camelot%20Update%20%232%3A%20%20Exception%20%20Management_article-card_title){.article-card__title--link} {#camelot-update-2-exception-management .article-card__title}
+### [Camelot Update \#2: Exception Management](https://www.linkedin.com/pulse/camelot-update-2-self-managing-exceptions-peter-merel?trk=related_artice_Camelot%20Update%20%232%3A%20%20Exception%20%20Management_article-card_title){.article-card__title--link} {#camelot-update-2-exception-management .article-card__title}
 
 [February 3, 2020]{.article-card__meta-info-item}
 :::

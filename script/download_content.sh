@@ -10,10 +10,22 @@
 # 5. verify that only the images we want remain and no additional content is linked
 # 6. update the frontmatter with a canonical reference
 
-# Example pandoc command
+
 source_url="https://www.linkedin.com/pulse/3d-kanban-peter-merel/"
 file_name="2017-09-04-3d-kanban"
-pandoc -s -r html $source_url -o "./output/$file_name.html.markdown"
+local_copy_url="./output/$file_name.html"
+
+wget -k -O $local_copy_url $source_url
+
+# replace 'src="//:0"'' with '' and 
+# replace 'data-li-src' with src
+
+sed -i '' 's/src="\/\/:0"//g' "$local_copy_url"
+sed -i '' 's/data-li-src/src/g' "$local_copy_url"
+
+
+# Example pandoc command
+pandoc -s -r html "$local_copy_url" -o "./output/$file_name.html.markdown"
 
 
 # If you want to include the images as local content, then do the following:
