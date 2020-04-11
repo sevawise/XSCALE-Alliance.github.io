@@ -11,9 +11,15 @@
 # 6. update the frontmatter with a canonical_url if needed
 # 7. check the source url in our current website; replace according to your judgement
 
-source_url="https://www.linkedin.com/pulse/3d-kanban-peter-merel/"
-file_name="2017-09-04-3d-kanban"
+# ---
+
+source_url="https://www.linkedin.com/pulse/fixed-price-agile-transformation-peter-merel/"
+file_name="2017-09-27-fixed-price-agile-transformation"
+
+# ---
+
 local_copy_url="./output/$file_name.html"
+markdown_file_name="../source/articles/backlog/$file_name.html.markdown"
 
 wget -k -O $local_copy_url $source_url
 
@@ -24,7 +30,13 @@ sed -i '' 's/src="\/\/:0"//g' "$local_copy_url"
 sed -i '' 's/data-li-src/src/g' "$local_copy_url"
 
 # Example pandoc command
-pandoc -s -r html "$local_copy_url" -o "./output/$file_name.html.markdown"
+pandoc -s -r html "$local_copy_url" -o "$markdown_file_name"
+
+# add the source url as th canonical url for now
+sed -i '' '2i\
+canonical_url:
+' "$markdown_file_name"
+sed -i '' "s,canonical_url:,canonical_url: $source_url,g" "$markdown_file_name"
 
 echo 'The source url is referenced in the following files, consider replacing it:'
 grep -rnw '../source/articles' -e $source_url
