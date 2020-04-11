@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # For each article to download, I suggest the following approach:
-#
-# 1. use pandoc to download a local markdown version of the article
+# 0. download a local copy of the html page
+# 1. use pandoc to convert to a markdown version of the article
 # 2. manually clean up the markdown file, 
 #    but let all visual content link to each original source
 # 3. include the markdown file in the website
