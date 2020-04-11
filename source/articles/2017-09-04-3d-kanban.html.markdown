@@ -132,6 +132,8 @@ constraint. Models combining these analytics into metrics can be
 combined with cumulative flow through a 3D Kanban to inform Throughput
 Diagrams similar to this:
 
+<iframe width="744" height="419" src="https://www.youtube.com/embed/95poI68g7-E?list=PLcF9BigzPGr3Fsema6jErOT8xwz0HR7NU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 See Also:
 ---------
 
