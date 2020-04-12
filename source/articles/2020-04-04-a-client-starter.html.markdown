@@ -4,9 +4,9 @@ title: A Client Starter
 date: 2020-04-04 00:01 UTC
 tags: client-starter
 blog: articles
-author: Paula Stewart
-author_image: /directory/pic/paula-stewart.png
-author_profile: https://www.linkedin.com/in/paula-sevawise/
+author: Peter Merel
+author_image: /directory/pic/peter-merel.png
+author_profile: 
 reviewer: Marijn van der Zee
 description: >
   This is an example client starter.
