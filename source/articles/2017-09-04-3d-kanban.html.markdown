@@ -1,0 +1,141 @@
+---
+
+title: 3D Kanban
+date: 2017-09-04 00:01 UTC
+tags: xba, 3d-kanban
+blog: articles
+author: Peter Merel
+author_image: /directory/pic/peter-merel.png
+author_profile: https://www.linkedin.com/in/petermerel/
+reviewer: Marijn van der Zee
+canonical_url: https://www.linkedin.com/pulse/3d-kanban-peter-merel/
+description: |
+    Despite the fuss that\'s been made of its Japanese name and Lean
+    origins, a Kanban is just a card wall where you pull cards toward done
+    from the right rather than pushing them into progress on the left.
+    Pulling toward done minimises work in progress, which is good for ROI
+    and related measures.
+
+---
+
+Despite the fuss that\'s been made of its Japanese name and Lean
+origins, a Kanban is just a card wall where you pull cards toward done
+from the right rather than pushing them into progress on the left.
+Pulling toward done minimises work in progress, which is good for ROI
+and related measures.
+
+But what\'s a 3D Kanban? The obvious 3 Ds are Design, Delivery and
+DevOps laid out as if they were stacked on top of each other. Looks a
+bit complicated, especially if you\'re used to a 3-column Scrum board.
+Turning something simple into something complicated doesn\'t seem like
+an achievement \... unless there\'s another benefit?
+
+Business Agility requires Design, Delivery and DevOps to work
+continuously, hand-in-glove. Self-directing portfolios of self-managing
+streams of self-organising teams. Relations between many different
+kanbans make this harder to do and time spent keeping all the boards
+lined up with each other is kind of painful. So in this respect a 3D
+Kanban could be simpler. But there\'s a bigger benefit \...
+
+The Beauty of Breadth-First
+---------------------------
+
+On a 3D Kanban we only split work items into smaller pieces when we
+actually need the pieces. Boxing work up breadth-first rather than
+detailing long-ass product backlogs makes the context for prioritisation
+decisions explicit. You can\'t just walk up the nearest foothill in a
+highly dimensional design space and expect to discover Everest.
+Breadth-first targets the global maximum of ROI rather than just some
+local maximum.
+
+Whether it\'s XSCALE
+[XPM](https://www.linkedin.com/pulse/exponential-product-management-xscale-language-peter-merel),
+Devops [3rd
+Way](https://itrevolution.com/the-three-ways-principles-underpinning-devops/),
+Google\'s [Design Sprints](https://www.youtube.com/watch?v=K2vSQPh6MCE),
+or Lean\'s [Set-Based Concurrent
+Engineering](https://www.researchgate.net/profile/Jeffrey_Liker/publication/248139929_Toyota%27s_Principles_of_Set-Based_Concurrent_Engineering/links/54d0dfb60cf20323c21a0069/Toyotas-Principles-of-Set-Based-Concurrent-Engineering.pdf),
+breadth-first avoids exploring any part of the design space in depth
+until there\'s a sketchy view of all of it.
+
+Here we\'re using XSCALE concepts to chunk from Products down to
+Stories. But you can use any breakdown structure you prefer so long as
+you do it just in time to track a card\'s flow. Because less cards on
+the board means less complexity and more
+[YAGNI](http://wiki.c2.com/?YouArentGonnaNeedIt).
+
+![No alt text provided for this
+image](https://media-exp1.licdn.com/dms/image/C4E12AQEn1r2-Ef_IZQ/article-inline_image-shrink_1000_1488/0?e=1591833600&v=beta&t=FgEgUoDUShCLNAS2kyJtiZq_tC-7CZwOtq4J0Rgiw7E)
+
+XSCALE\'s definitions of these things are minimalist:
+
+-   **Products** are units of marketing and customer experience for some
+    value streams.
+-   **Epics** are business objectives relevant to bringing the Product
+    to market.
+-   **Features** are the smallest parts of an Epic with appreciable
+    business value.
+-   **Scenarios** are sets of
+    [BDD](https://johnfergusonsmart.com/serenity-bdd/) acceptance
+    criteria for a Feature.
+-   **Stories are** segmentations of Scenarios that share
+    [INVEST](https://en.wikipedia.org/wiki/INVEST_(mnemonic))
+    properties.
+
+Of course you\'re free to bring your own distinctions to the cards on
+your own Kanban. The point here is representing the structure
+breadth-first. Think of the colours here as just a way to see how the
+boxes on the right are always pulled directly out of the boxes on the
+left. Let\'s follow the wall left to right and see how that works.
+
+![No alt text provided for this
+image](https://media-exp1.licdn.com/dms/image/C4E12AQEgdD1GZL73gQ/article-inline_image-shrink_1000_1488/0?e=1591833600&v=beta&t=4oT4Y20Q5Z3ycMNdThdHv0E39g3EXrI1QhJuZkOaxbA)
+
+Walking The Wall
+----------------
+
+[Walking the
+wall](https://www.linkedin.com/pulse/top-3-things-do-standup-peter-merel)
+is a kind of standup meeting you use to propel your workflow. You can
+make your 3D kanban have a very different workflow to this one, which is
+based on the
+[XPM](https://www.linkedin.com/pulse/exponential-product-management-xscale-language-peter-merel),
+[XAP](https://www.linkedin.com/pulse/exponential-agile-performance-xscale-practice-pattern-peter-merel)
+and
+[XBA](https://www.linkedin.com/pulse/exponential-business-agility-xscale-practice-pattern-language-merel)
+patterns:
+
+-   [**Canvas**](https://www.linkedin.com/pulse/pirate-canvas-charting-service-ecosystem-exponential-growth-merel)
+    means boiling business constraints and metrics down to an Epic
+    landscape.
+-   [**Analyze**](http://xscale.wiki/#Behavioral%20Product%20Planning)
+    means figuring out what releasable Feature-sets are relevant to each
+    Epic.
+-   [**Estimate**](https://www.linkedin.com/pulse/business-bingo-peter-merel)
+    means figuring out priority & budget per Feature to make a release
+    plan..
+-   [**Design/Test/Build/CI**](http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html)
+    is the classic agile SDLC.
+-   **FIT** is Feature Integration Testing in a Production-Like
+    Environment.
+-   **SIT** is Systems Integration Testing in Production using a
+    Dark/Canary/A-B flow.
+-   **Science** is where we deploy, experiment and gather data to inform
+    the Canvas work.
+
+So long as BDD tests are written in Functional style their analytics can
+be collected longitudinally to identify the bottleneck market
+constraint. Models combining these analytics into metrics can be
+combined with cumulative flow through a 3D Kanban to inform Throughput
+Diagrams similar to this:
+
+<iframe width="744" height="419" src="https://www.youtube.com/embed/95poI68g7-E?list=PLcF9BigzPGr3Fsema6jErOT8xwz0HR7NU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+See Also:
+---------
+
+[Exponential Business
+Agility](https://www.linkedin.com/pulse/exponential-business-agility-xscale-practice-pattern-language-merel),
+[Corey
+Ladas](http://leansoftwareengineering.com/2009/07/01/a-swimlane-for-ad-hoc-workflow/?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3Bxx9LPymJQjSg2lVcXBskjA%3D%3D).
+[Business Bingo](https://www.linkedin.com/pulse/3d-kanban-peter-merel)
